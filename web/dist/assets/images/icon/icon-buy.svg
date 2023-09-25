@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="icon-buy" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-3{fill:#0f0f0f}
+        </style>
+    </defs>
+    <path id="Rectangle_5715" d="M0 0h24v24H0z" class="cls-1"/>
+    <path id="Rectangle_5716" d="M2 2h20v20H2z" class="cls-1"/>
+    <path id="패스_9389" fill="none" stroke="#0f0f0f" d="M2.5 0h14A2.5 2.5 0 0 1 19 2.5v14a2.5 2.5 0 0 1-2.5 2.5h-14A2.5 2.5 0 0 1 0 16.5v-14A2.5 2.5 0 0 1 2.5 0z" transform="translate(2.5 2.5)"/>
+    <path id="패스_9384" d="M12 14a5.007 5.007 0 0 1-5-5V7h1v2a4 4 0 0 0 8 0V7h1v2a5.007 5.007 0 0 1-5 5z" class="cls-1"/>
+    <path id="패스_9385" d="M12 14.006A5.008 5.008 0 0 1 7 9V7h1v2a4 4 0 1 0 8 0V7h1v2a5.008 5.008 0 0 1-5 5.006z" class="cls-3"/>
+    <path id="패스_9387" d="M16.5 6a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z" class="cls-3"/>
+    <path id="패스_9390" d="M.5 0a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 .5 0z" class="cls-3" transform="translate(7 6)"/>
+</svg>

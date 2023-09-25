@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <defs>
+        <style>
+            .cls-2{fill:#afc1da}.cls-6{fill:#fff}
+        </style>
+    </defs>
+    <g id="ic_step_6" transform="translate(-1210.385 -1022.625)">
+        <g id="ic_step3" transform="translate(1210.385 1022.624)">
+            <path id="사각형_6781" fill="none" d="M0 0H60V60H0z" transform="translate(0 .002)"/>
+        </g>
+        <g id="그룹_2189" transform="translate(1211.937 1026.47)">
+            <g id="그룹_2187">
+                <rect id="사각형_8108" width="52.631" height="37.908" class="cls-2" rx="2.385"/>
+                <path id="사각형_8109" fill="#edf1f7" d="M0 0H45.519V27.282H0z" transform="translate(3.556 3.556)"/>
+                <path id="사각형_8110" d="M0 0H13.948V6.254H0z" class="cls-2" transform="translate(19.429 37.908)"/>
+                <path id="사각형_8111" d="M0 0H36.958V3.441H0z" class="cls-2" transform="translate(7.924 44.162)"/>
+                <path id="사각형_8112" d="M0 0H35.229V1.422H0z" class="cls-2" transform="translate(8.636 18.242)"/>
+                <path id="사각형_8113" d="M0 0H35.229V1.422H0z" class="cls-2" transform="translate(8.636 21.98)"/>
+                <path id="사각형_8114" d="M0 0H35.229V1.422H0z" class="cls-2" transform="translate(8.636 25.719)"/>
+                <path id="사각형_8115" fill="#1eb6ad" d="M0 0H12.174V7.28H0z" transform="translate(8.637 7.959)"/>
+            </g>
+            <circle id="타원_750" cx="9.26" cy="9.26" r="9.26" fill="#3e79e8" transform="translate(38.007 33.425)"/>
+            <rect id="사각형_8658" width="1.491" height="11.926" class="cls-6" rx=".745" transform="rotate(45 -20.317 80.341)"/>
+            <rect id="사각형_8659" width="1.491" height="11.926" class="cls-6" rx=".745" transform="rotate(-45 68.232 -31.737)"/>
+        </g>
+    </g>
+</svg>

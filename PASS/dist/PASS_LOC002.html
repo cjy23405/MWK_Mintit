@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>Mintit PASS</title>
+
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- 2021.05.20 : mod : 뷰포트 값 변경 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <!-- //2021.05.20 : mod : 뷰포트 값 변경 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- style -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/common.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/ui-style.css" />
+    <!-- //style -->
+  </head>
+  <body>
+    <a href="" data-layer-open="layer-search-atm">ATM 검색</a>
+
+    <!-- layer: ATM 검색 -->
+    <div class="layer-wrap layer-wrap--full layer-search-atm" data-layer="layer-search-atm">
+      <div class="layer-container">
+        <section class="ui-layer">
+          <div class="ui-layer__head">
+            <div class="header">
+              <h2 class="for-a11y">ATM 검색</h2>
+              <div class="header__right">
+                <button type="button" class="ui-button header__button header__button--close" data-role="layerClose">
+                  <span class="for-a11y">닫기</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="ui-layer__body">
+            <div class="ui-layer__body-inner">
+              <div class="atm-search">
+                <div class="atm-search__form">
+                  <!-- 2021.04.20 : mod : 폼 변경 -->
+                  <div class="search-input-block">
+                    <input type="search" class="search-input-block__input" placeholder="지역명, 지점명을 입력하세요." />
+                    <button type="button" class="ui-button search-input-block__delete">
+                      <span class="for-a11y">입력 값 삭제</span>
+                    </button>
+                  </div>
+                  <!-- //2021.04.20 : mod : 폼 변경 -->
+                  <div class="atm-search__check-tab">
+                    <ul class="atm-search__check-tab-list">
+                      <li class="atm-search__check-tab-item">
+                        <div class="atm-search__check-tab-button">
+                          <input type="checkbox" class="ui-checkbox" id="atmMapType1" />
+                          <label for="atmMapType1" class="atm-search__check-tab-button-label">SKT</label>
+                        </div>
+                      </li>
+                      <li class="atm-search__check-tab-item">
+                        <div class="atm-search__check-tab-button">
+                          <input type="checkbox" class="ui-checkbox" id="atmMapType2" />
+                          <label for="atmMapType2" class="atm-search__check-tab-button-label">삼성디지털프라자</label>
+                        </div>
+                      </li>
+                      <li class="atm-search__check-tab-item">
+                        <div class="atm-search__check-tab-button">
+                          <input type="checkbox" class="ui-checkbox" id="atmMapType3" />
+                          <label for="atmMapType3" class="atm-search__check-tab-button-label">이마트</label>
+                        </div>
+                      </li>
+                      <li class="atm-search__check-tab-item">
+                        <div class="atm-search__check-tab-button">
+                          <input type="checkbox" class="ui-checkbox" id="atmMapType4" />
+                          <label for="atmMapType4" class="atm-search__check-tab-button-label">홈플러스</label>
+                        </div>
+                      </li>
+                      <li class="atm-search__check-tab-item">
+                        <div class="atm-search__check-tab-button">
+                          <input type="checkbox" class="ui-checkbox" id="atmMapType5" />
+                          <label for="atmMapType5" class="atm-search__check-tab-button-label">롯데마트</label>
+                        </div>
+                      </li>
+                      <li class="atm-search__check-tab-item">
+                        <div class="atm-search__check-tab-button">
+                          <input type="checkbox" class="ui-checkbox" id="atmMapType6" />
+                          <label for="atmMapType6" class="atm-search__check-tab-button-label">하이마트</label>
+                        </div>
+                      </li>
+                      <li class="atm-search__check-tab-item">
+                        <div class="atm-search__check-tab-button">
+                          <input type="checkbox" class="ui-checkbox" id="atmMapType7" />
+                          <label for="atmMapType7" class="atm-search__check-tab-button-label">우체국</label>
+                        </div>
+                      </li>
+                      <li class="atm-search__check-tab-item">
+                        <div class="atm-search__check-tab-button">
+                          <input type="checkbox" class="ui-checkbox" id="atmMapType8" />
+                          <label for="atmMapType8" class="atm-search__check-tab-button-label">기타</label>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- 2021.05.14 : add : 전체 해제 버튼 추가 -->
+                  <button type="button" class="ui-button atm-search__reset">전체 해제</button>
+                  <!-- //2021.05.14 : add : 전체 해제 버튼 추가 -->
+                </div>
+
+                <div class="atm-search__result">
+                  <div class="atm-search__empty">
+                    <p class="atm-search__empty-text">해당하는 지역에 ATM이 없습니다.</p>
+                  </div>
+                  <ul class="atm-search__list">
+                    <li class="atm-search__item">
+                      <button type="button" class="ui-button atm-search__link">
+                        <strong class="atm-search__name">디폴트 아이콘점</strong>
+                        <address class="atm-search__address">서울 성동구 왕십리광장로 17</address>
+                      </button>
+                    </li>
+                    <li class="atm-search__item atm-search__item--sk">
+                      <button type="button" class="ui-button atm-search__link">
+                        <strong class="atm-search__name">SK 아이콘점</strong>
+                        <address class="atm-search__address">서울 성동구 왕십리광장로 17</address>
+                      </button>
+                    </li>
+                    <li class="atm-search__item atm-search__item--emart">
+                      <button type="button" class="ui-button atm-search__link">
+                        <strong class="atm-search__name">이마트 아이콘점</strong>
+                        <address class="atm-search__address">서울 강남구 삼성동 태헤란로 517 현대백화점 무역센터점</address>
+                      </button>
+                    </li>
+                    <li class="atm-search__item atm-search__item--homeplus">
+                      <button type="button" class="ui-button atm-search__link">
+                        <strong class="atm-search__name">홈플러스 아이콘점</strong>
+                        <address class="atm-search__address">서울 성동구 왕십리광장로 17</address>
+                      </button>
+                    </li>
+                    <li class="atm-search__item atm-search__item--samsung">
+                      <button type="button" class="ui-button atm-search__link">
+                        <strong class="atm-search__name">삼성 아이콘점</strong>
+                        <address class="atm-search__address">서울 성동구 왕십리광장로 17</address>
+                      </button>
+                    </li>
+                    <li class="atm-search__item atm-search__item--lottemart">
+                      <button type="button" class="ui-button atm-search__link">
+                        <strong class="atm-search__name">롯데마트 아이콘점</strong>
+                        <address class="atm-search__address">서울 성동구 왕십리광장로 17</address>
+                      </button>
+                    </li>
+                    <li class="atm-search__item atm-search__item--post">
+                      <button type="button" class="ui-button atm-search__link">
+                        <strong class="atm-search__name">우체국 아이콘점</strong>
+                        <address class="atm-search__address">서울 성동구 왕십리광장로 17</address>
+                      </button>
+                    </li>
+                    <li class="atm-search__item atm-search__item--himart">
+                      <button type="button" class="ui-button atm-search__link">
+                        <strong class="atm-search__name">하이마트 아이콘점</strong>
+                        <address class="atm-search__address">서울 성동구 왕십리광장로 17</address>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- //layer: ATM 검색 -->
+
+    <!-- script -->
+    <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./assets/js/apexcharts.min.js"></script>
+    <script type="text/javascript" src="./assets/js/swiper.min.js"></script>
+    <script type="text/javascript" src="./assets/js/ui-script.js"></script>
+    <script type="text/javascript">
+      // 퍼블리셔 테스트 소스 입니다. 운영엔 반영하지 말아주세요.
+      $(function () {
+        uiJSLayer.open('layer-search-atm');
+      });
+    </script>
+    <!-- //script -->
+  </body>
+</html>

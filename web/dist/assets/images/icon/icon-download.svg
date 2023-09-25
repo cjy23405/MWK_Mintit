@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_download" width="14" height="14" viewBox="0 0 14 14">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#0f0f0f}
+        </style>
+    </defs>
+    <path id="사각형_6255" d="M0 0h14v14H0z" class="cls-1"/>
+    <path id="패스_9391" d="M12.5 13.5h-11a1 1 0 0 1-1-1v-3h1v2.8a.2.2 0 0 0 .2.2h10.6a.2.2 0 0 0 .2-.2V9.5h1v3a1 1 0 0 1-1 1z" class="cls-1"/>
+    <path id="패스_9392" d="M12.5 13.5h-11a1 1 0 0 1-1-1v-3h1v2.8a.2.2 0 0 0 .2.2h10.6a.2.2 0 0 0 .195-.2V9.5h1v3a1 1 0 0 1-.995 1z" class="cls-2"/>
+    <path id="패스_3867" fill="none" stroke="#0f0f0f" stroke-linecap="round" stroke-linejoin="round" d="M4 7.5l3 3 3-3"/>
+    <path id="패스_9397" d="M.5 0a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 .5 0z" class="cls-2" transform="translate(.5 8.498)"/>
+    <path id="패스_9396" d="M.5 0a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 .5 0z" class="cls-2" transform="translate(12.496 8.498)"/>
+    <rect id="사각형_9281" width="1" height="9" class="cls-2" rx=".5" transform="translate(6.5 1)"/>
+</svg>

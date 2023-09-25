@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>민팃</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- favicon -->
+    <link rel="icon" href="./assets/images/common/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/common/favicon-57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/common/favicon-60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/common/favicon-72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/common/favicon-76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/images/common/favicon-114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/common/favicon-120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/images/common/favicon-144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/images/common/favicon-152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/common/favicon-180.png" />
+    <!-- //favicon -->
+
+    <!-- style -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/jquery-ui.min.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/simplebar.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/bootstrap-datetimepicker.min.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/common.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/ui-style.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/ui-style--mobile.css" />
+    <!-- //style -->
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="layout-wrap">
+        <!-- mobile header  -->
+        <header class="mobile-header">
+          <h1 class="for-a11y">Mintit</h1>
+          <div class="mobile-header__left">
+            <a href="" class="mobile-header__btn mobile-header__btn--back">
+              <span class="for-a11y">뒤로 가기</span>
+            </a>
+          </div>
+          <div class="mobile-header__right">
+            <!-- 2020.12.04 : mod : js-push-talk-opener 클래스값 추가 -->
+            <a href="" class="mobile-header__btn mobile-header__btn--notification js-push-talk-opener">
+              <span class="for-a11y">알림</span>
+            </a>
+            <!-- //2020.12.04 : mod : js-push-talk-opener 클래스값 추가 -->
+            <button type="button" class="ui-button mobile-header__btn mobile-header__btn--menu js-gnb-opener">
+              <span class="for-a11y">메뉴 열기</span>
+            </button>
+          </div>
+        </header>
+        <!-- //mobile header  -->
+
+        <!-- gnb  -->
+        <div class="gnb">
+          <div class="gnb__inner">
+            <header class="gnb__head">
+              <h1 class="gnb__head__logo">
+                <a href="" class="gnb__head__logo__link">
+                  <span class="for-a11y">Mintit</span>
+                </a>
+              </h1>
+            </header>
+
+            <button type="button" class="ui-button gnb__close js-gnb-closer">
+              <span class="for-a11y">메뉴 닫기</span>
+            </button>
+
+            <div class="gnb-my-card">
+              <div class="gnb-my-card__inner">
+                <p class="gnb-my-card__hello"><strong>홍길동님</strong>안녕하세요.</p>
+                <a href="" class="gnb-my-card__top-btn gnb-my-card__top-btn--logout">로그아웃</a>
+              </div>
+            </div>
+
+            <div class="user-menu">
+              <ul class="user-menu__list">
+                <li class="user-menu__item user-menu__item--mypage">
+                  <a href="" class="user-menu__link">마이페이지</a>
+                </li>
+                <li class="user-menu__item user-menu__item--point">
+                  <a href="" class="user-menu__link">내 적립금</a>
+                </li>
+                <!-- 2021.06.11 : mod : 메뉴 변경 -->
+                <li class="user-menu__item user-menu__item--selling">
+                  <a href="" class="user-menu__link">판매내역</a>
+                </li>
+                <!-- //2021.06.11 : mod : 메뉴 변경 -->
+              </ul>
+            </div>
+
+            <div class="gnb__scroller ui-scroller">
+              <div class="gnb__scroller__doc">
+                <div class="gnb-nav js-ui-accordion">
+                  <ul class="gnb-nav__list">
+                    <!-- DD : 해당 페이지면 is-active 클래스 값 추가 -->
+                    <li class="gnb-nav__item js-ui-accordion__item is-active">
+                      <div class="gnb-nav__head">
+                        <span class="gnb-nav__link">민팃 소개</span>
+                        <button type="button" class="ui-button gnb-nav__opener js-ui-accordion__opener">
+                          <span class="for-a11y">
+                            하위메뉴
+                            <span class="open-text">open</span>
+                            <span class="close-text">close</span>
+                          </span>
+                        </button>
+                      </div>
+                      <div class="gnb-nav__sub js-ui-accordion__layer">
+                        <ul class="gnb-nav__sub__list">
+                          <!-- DD : 해당 페이지면 is-active 클래스 값 추가 -->
+                          <li class="gnb-nav__sub__item is-active">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">민팃이란</a>
+                            </div>
+                          </li>
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">사회적 가치</a>
+                            </div>
+                          </li>
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">브랜드 영상</a>
+                            </div>
+                          </li>
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">기부하기</a>
+                            </div>
+                          </li>
+                          <!-- 2020.12.21 : add : 메뉴 추가 -->
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">중고폰 ATM 소개</a>
+                            </div>
+                          </li>
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">미니 ATM 소개</a>
+                            </div>
+                          </li>
+                          <!-- //2020.12.21 : add : 메뉴 추가 -->
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="gnb-nav__item">
+                      <div class="gnb-nav__head">
+                        <a href="" class="gnb-nav__link">ATM 위치</a>
+                      </div>
+                    </li>
+                    <li class="gnb-nav__item">
+                      <div class="gnb-nav__head">
+                        <a href="" class="gnb-nav__link">시세조회</a>
+                      </div>
+                    </li>
+                    <li class="gnb-nav__item is-pc-only">
+                      <div class="gnb-nav__head">
+                        <a href="" class="gnb-nav__link">내폰관리</a>
+                      </div>
+                    </li>
+                    <li class="gnb-nav__item">
+                      <div class="gnb-nav__head">
+                        <a href="" class="gnb-nav__link">구매하기</a>
+                      </div>
+                    </li>
+                    <li class="gnb-nav__item js-ui-accordion__item">
+                      <div class="gnb-nav__head">
+                        <span class="gnb-nav__link">고객센터</span>
+                        <button type="button" class="ui-button gnb-nav__opener js-ui-accordion__opener">
+                          <span class="for-a11y">
+                            하위메뉴
+                            <span class="open-text">open</span>
+                            <span class="close-text">close</span>
+                          </span>
+                        </button>
+                      </div>
+                      <div class="gnb-nav__sub js-ui-accordion__layer">
+                        <ul class="gnb-nav__sub__list">
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">자주 묻는 질문</a>
+                            </div>
+                          </li>
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">공지사항</a>
+                            </div>
+                          </li>
+                          <!-- 2020.12.28 : add : 메뉴 추가 -->
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">거래조회</a>
+                            </div>
+                          </li>
+                          <!-- //2020.12.28 : add : 메뉴 추가 -->
+                        </ul>
+                      </div>
+                    </li>
+
+                    <!-- 2021.06.11 : del : 제거
+                    <li class="gnb-nav__item">
+                      <div class="gnb-nav__head">
+                        <a href="" class="gnb-nav__link">1:1 문의</a>
+                      </div>
+                    </li>
+                    -->
+
+                    <!-- 2021.06.02 : del : 제거
+                    <li class="gnb-nav__item">
+                      <div class="gnb-nav__head">
+                        <a href="" class="gnb-nav__link">제휴문의</a>
+                      </div>
+                    </li>
+                    -->
+
+                    <!-- 2021.06.04 : mod : 메뉴 구성 변경 -->
+                    <li class="gnb-nav__item js-ui-accordion__item">
+                      <div class="gnb-nav__head">
+                        <span class="gnb-nav__link">민팃 모바일케어보험</span>
+                        <button type="button" class="ui-button gnb-nav__opener js-ui-accordion__opener">
+                          <span class="for-a11y">
+                            하위메뉴
+                            <span class="open-text">open</span>
+                            <span class="close-text">close</span>
+                          </span>
+                        </button>
+                      </div>
+                      <div class="gnb-nav__sub js-ui-accordion__layer">
+                        <ul class="gnb-nav__sub__list">
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">상품안내서</a>
+                            </div>
+                          </li>
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">보험보상절차안내</a>
+                            </div>
+                          </li>
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">보험가입내역확인</a>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <!-- 2021.08.03 : add : 갤럭시 클럽 메뉴 추가 -->
+                    <li class="gnb-nav__item js-ui-accordion__item">
+                      <div class="gnb-nav__head">
+                        <!-- 2021.09.03 : mod : 명칭 수정 -->
+                        <span class="gnb-nav__link">자급제 갤럭시클럽</span>
+                        <!-- //2021.09.03 : mod : 명칭 수정 -->
+                        <button type="button" class="ui-button gnb-nav__opener js-ui-accordion__opener">
+                          <span class="for-a11y">
+                            하위메뉴
+                            <span class="open-text">open</span>
+                            <span class="close-text">close</span>
+                          </span>
+                        </button>
+                      </div>
+                      <div class="gnb-nav__sub js-ui-accordion__layer">
+                        <ul class="gnb-nav__sub__list">
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <!-- 2021.09.03 : mod : 명칭 수정 -->
+                              <a href="" class="gnb-nav__sub__link">자급제 갤럭시클럽 안내</a>
+                              <!-- //2021.09.03 : mod : 명칭 수정 -->
+                            </div>
+                          </li>
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">내 가입내역</a>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <!-- //2021.08.03 : add : 갤럭시 클럽 메뉴 추가 -->
+
+                    <!-- 2021.08.02 : add : 메뉴 추가 -->
+                    <li class="gnb-nav__item">
+                      <div class="gnb-nav__head">
+                        <a href="" class="gnb-nav__link">
+                          <span class="inline-block">폴더블 추가보상</span>
+                          <span class="inline-block"
+                            >사전예약<span class="gnb-nav__event"><span class="for-a11y">(Event)</span></span></span
+                          >
+                        </a>
+                      </div>
+                    </li>
+                    <!-- //2021.08.02 : add : 메뉴 추가 -->
+
+                    <li class="gnb-nav__item">
+                      <div class="gnb-nav__head">
+                        <a href="" class="gnb-nav__link">
+                          삼성 추가보상<span class="gnb-nav__event"><span class="for-a11y">(Event)</span></span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li class="gnb-nav__item">
+                      <div class="gnb-nav__head">
+                        <a href="" class="gnb-nav__link">
+                          애플 추가보상<span class="gnb-nav__event"><span class="for-a11y">(Event)</span></span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li class="gnb-nav__item js-ui-accordion__item">
+                      <div class="gnb-nav__head">
+                        <span class="gnb-nav__link">이벤트</span>
+                        <button type="button" class="ui-button gnb-nav__opener js-ui-accordion__opener">
+                          <span class="for-a11y">
+                            하위메뉴
+                            <span class="open-text">open</span>
+                            <span class="close-text">close</span>
+                          </span>
+                        </button>
+                      </div>
+                      <div class="gnb-nav__sub js-ui-accordion__layer">
+                        <ul class="gnb-nav__sub__list">
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">월간 민팃폰</a>
+                            </div>
+                          </li>
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">SKT PASS 휴대폰</a>
+                            </div>
+                          </li>
+                          <!-- 2021.07.29 : add : 2주년 이벤트 메뉴 추가 -->
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">민팃 출시 2주년 이벤트</a>
+                            </div>
+                          </li>
+                          <!-- //2021.07.29 : add : 2주년 이벤트 메뉴 추가 -->
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">월간 민팃 리뷰왕</a>
+                            </div>
+                          </li>
+                          <!-- 2021.08.30 : add : 민팃X우체국 캠페인 메뉴 추가 -->
+                          <li class="gnb-nav__sub__item">
+                            <div class="gnb-nav__sub__head">
+                              <a href="" class="gnb-nav__sub__link">민팃X우체국 캠페인</a>
+                            </div>
+                          </li>
+                          <!-- //2021.08.30 : add : 민팃X우체국 캠페인 메뉴 추가 -->
+                        </ul>
+                      </div>
+                    </li>
+                    <!-- //2021.06.04 : mod : 메뉴 구성 변경 -->
+                  </ul>
+                </div>
+
+                <div class="gnb-etc-menu">
+                  <ul class="gnb-etc-menu__list">
+                    <li class="gnb-etc-menu__item">
+                      <a href="" class="gnb-etc-menu__link">이용방법</a>
+                    </li>
+                    <li class="gnb-etc-menu__item is-pc-only">
+                      <a href="" class="gnb-etc-menu__link">로그아웃</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="sns-menu">
+                  <ul class="sns-menu__list">
+                    <li class="sns-menu__item sns-menu__item--facebook">
+                      <a href="" class="sns-menu__link">
+                        <span class="for-a11y">Facebook</span>
+                      </a>
+                    </li>
+                    <li class="sns-menu__item sns-menu__item--instagram">
+                      <a href="" class="sns-menu__link">
+                        <span class="for-a11y">Instagram</span>
+                      </a>
+                    </li>
+                    <li class="sns-menu__item sns-menu__item--naver-post">
+                      <a href="" class="sns-menu__link">
+                        <span class="for-a11y">Naver post</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- //gnb  -->
+
+        <!-- mobile bottom bar -->
+        <div class="mobile-bottom-bar">
+          <ul class="mobile-bottom-bar__list">
+            <!-- DD : 해당 페이지면 is-active 클래스 값 추가 -->
+            <li class="mobile-bottom-bar__item mobile-bottom-bar__item--home is-active">
+              <a href="" class="mobile-bottom-bar__link">홈</a>
+            </li>
+            <li class="mobile-bottom-bar__item mobile-bottom-bar__item--atm-find">
+              <a href="" class="mobile-bottom-bar__link">ATM 위치</a>
+            </li>
+            <li class="mobile-bottom-bar__item mobile-bottom-bar__item--market-price">
+              <a href="" class="mobile-bottom-bar__link"><span class="mobile-bottom-bar__bubble">시세조회</span></a>
+            </li>
+            <li class="mobile-bottom-bar__item mobile-bottom-bar__item--my-phone">
+              <a href="" class="mobile-bottom-bar__link">내폰관리</a>
+            </li>
+            <li class="mobile-bottom-bar__item mobile-bottom-bar__item--buy">
+              <a href="" class="mobile-bottom-bar__link">구매하기</a>
+            </li>
+          </ul>
+        </div>
+        <!-- //mobile bottom bar -->
+
+        <!-- contents -->
+        <div class="contents-wrap">
+          <div class="contents-wrap__head">
+            <div class="contents-head">
+              <div class="contents-head__left">
+                <p class="contents-head__location">
+                  <span class="contents-head__location__item">Home</span>
+                  <span class="contents-head__location__arrow"><span class="for-a11y">&gt;</span></span>
+                  <span class="contents-head__location__item is-current">ATM 위치</span>
+                </p>
+              </div>
+              <div class="contents-head__right">
+                <p class="contents-head__hello"><strong>홍길동님</strong>안녕하세요.</p>
+                <div class="contents-head__buttons">
+                  <!-- 2020.12.04 : mod : js-push-talk-opener 클래스값 추가 -->
+                  <a href="" class="contents-head__btn contents-head__btn--notification js-push-talk-opener">
+                    <span class="for-a11y">알림</span>
+                  </a>
+                  <!-- //2020.12.04 : mod : js-push-talk-opener 클래스값 추가 -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contents-wrap__body">
+            <div class="contents contents--map">
+              <h2 class="for-a11y">ATM 위치</h2>
+              <div class="map-area">
+                <div style="width: 100%; height: 100%; box-sizing: border-box; padding: 100px 0; text-align: center; background: #eee">
+                  //map<br /><br />
+                  <!-- DD : 디폴트 마커 -->
+                  <img src="./assets/images/icon/marker-mintit.png" alt="" width="40" height="41" />
+                  <!-- DD : SK 마커 -->
+                  <img src="./assets/images/icon/marker-sk.png" alt="" width="40" height="41" />
+
+                  <!-- 2021.08.25 : add : LG U+, KT 마커 추가 -->
+                  <!-- DD : LG U+ 마커 -->
+                  <img src="./assets/images/icon/marker-lg.png" alt="" width="40" height="41" />
+                  <!-- DD : KT 마커 -->
+                  <img src="./assets/images/icon/marker-kt.png" alt="" width="40" height="41" />
+                  <!-- //2021.08.25 : add : LG U+, KT 마커 추가 -->
+
+                  <!-- DD : 이마트 마커 -->
+                  <img src="./assets/images/icon/marker-emart.png" alt="" width="40" height="41" />
+                  <!-- DD : 홈플러스 마커 -->
+                  <img src="./assets/images/icon/marker-homeplus.png" alt="" width="40" height="41" />
+                  <!-- DD : 삼성 마커 -->
+                  <img src="./assets/images/icon/marker-samsung.png" alt="" width="40" height="41" />
+                  <!-- DD : 롯데마트 마커 -->
+                  <img src="./assets/images/icon/marker-lottemart.png" alt="" width="40" height="41" />
+                  <!-- DD : 우체국 마커 -->
+                  <img src="./assets/images/icon/marker-post.png" alt="" width="40" height="41" />
+                  <!-- DD : 하이마트 마커 -->
+                  <img src="./assets/images/icon/marker-himart.png" alt="" width="40" height="41" />
+                </div>
+              </div>
+
+              <button type="button" class="ui-button map-list-opener js-atm-find-opener">
+                <span class="for-a11y">목록 열기</span>
+              </button>
+
+              <div class="map-tools">
+                <div class="map-buttons">
+                  <button type="button" class="ui-button map-btn map-btn--current">
+                    <span class="for-a11y">내 위치</span>
+                  </button>
+                </div>
+                <div class="map-side-bar">
+                  <section class="atm-info">
+                    <h3 class="atm-info__name">이마트 왕십리점</h3>
+                    <address class="atm-info__address">서울 성동구 왕십리광장로 17</address>
+                    <a href="" class="ui-medium-button atm-info__navigation">길찾기</a>
+                    <div class="atm-info__box">
+                      <dl class="atm-info__detail">
+                        <dt class="atm-info__detail-key">설치 장소</dt>
+                        <dd class="atm-info__detail-val">고객만족센터</dd>
+                        <dt class="atm-info__detail-key">운영 시간</dt>
+                        <dd class="atm-info__detail-val">AM 10:00 ~ PM 10:00</dd>
+                        <dt class="atm-info__detail-key">휴무일</dt>
+                        <dd class="atm-info__detail-val">매월 2,4번째 일요일</dd>
+                      </dl>
+                    </div>
+                  </section>
+
+                  <div class="atm-find">
+                    <div class="ui-layer-header is-mobile-only">
+                      <div class="ui-layer-header__right">
+                        <button type="button" class="ui-button ui-layer-header__btn ui-layer-header__btn--close js-atm-find-closer">
+                          <span class="for-a11y">레이어 닫기</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="atm-find__form">
+                      <!-- 2021.04.20 : mod : 폼 변경 -->
+                      <div class="board-search-form board-search-form--atm-find">
+                        <input type="search" class="board-search-form__input" placeholder="지역명, 지점명을 입력하세요." />
+                        <button type="button" class="ui-button board-search-form__submit">
+                          <span class="for-a11y">검색</span>
+                        </button>
+                      </div>
+                      <!-- //2021.04.20 : mod : 폼 변경 -->
+                      <!-- 2021.04.12 : del : 필터 항목 변경
+                      <div class="check-tab">
+                        <ul class="check-tab__list">
+                          <li class="check-tab__item">
+                            <div class="check-tab__button">
+                              <input type="checkbox" class="ui-checkbox" id="atmMapType1" />
+                              <label for="atmMapType1" class="check-tab__button-label">중고폰 ATM</label>
+                            </div>
+                          </li>
+                          <li class="check-tab__item">
+                            <div class="check-tab__button">
+                              <input type="checkbox" class="ui-checkbox" id="atmMapType2" />
+                              <label for="atmMapType2" class="check-tab__button-label">미니 ATM</label>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      -->
+                      <!-- 2021.04.12 : add : 필터 항목 변경 -->
+                      <div class="store-check">
+                        <ul class="store-check__list">
+                          <li class="store-check__item store-check__item--sk">
+                            <div class="store-check__button">
+                              <input type="checkbox" class="ui-checkbox" id="atmMapStore1" />
+                              <label for="atmMapStore1" class="store-check__button-label">SKT</label>
+                            </div>
+                          </li>
+                          <!-- 2021.08.25 : add : LG U+, KT 추가 -->
+                          <li class="store-check__item store-check__item--lg">
+                            <div class="store-check__button">
+                              <input type="checkbox" class="ui-checkbox" id="atmMapStore9" />
+                              <label for="atmMapStore9" class="store-check__button-label">LGU+ ATM</label>
+                            </div>
+                          </li>
+                          <li class="store-check__item store-check__item--lg">
+                            <div class="store-check__button">
+                              <input type="checkbox" class="ui-checkbox" id="atmMapStore10" />
+                              <label for="atmMapStore10" class="store-check__button-label">LGU+ BOX</label>
+                            </div>
+                          </li>
+                          <li class="store-check__item store-check__item--kt">
+                            <div class="store-check__button">
+                              <input type="checkbox" class="ui-checkbox" id="atmMapStore11" />
+                              <label for="atmMapStore11" class="store-check__button-label">KT</label>
+                            </div>
+                          </li>
+                          <!-- //2021.08.25 : add : LG U+, KT 추가 -->
+                          <li class="store-check__item store-check__item--samsung">
+                            <div class="store-check__button">
+                              <input type="checkbox" class="ui-checkbox" id="atmMapStore2" />
+                              <label for="atmMapStore2" class="store-check__button-label">삼성디지털프라자</label>
+                            </div>
+                          </li>
+                          <li class="store-check__item store-check__item--emart">
+                            <div class="store-check__button">
+                              <input type="checkbox" class="ui-checkbox" id="atmMapStore3" />
+                              <label for="atmMapStore3" class="store-check__button-label">이마트</label>
+                            </div>
+                          </li>
+                          <li class="store-check__item store-check__item--homeplus">
+                            <div class="store-check__button">
+                              <input type="checkbox" class="ui-checkbox" id="atmMapStore4" />
+                              <label for="atmMapStore4" class="store-check__button-label">홈플러스</label>
+                            </div>
+                          </li>
+                          <li class="store-check__item store-check__item--lottemart">
+                            <div class="store-check__button">
+                              <input type="checkbox" class="ui-checkbox" id="atmMapStore5" />
+                              <label for="atmMapStore5" class="store-check__button-label">롯데마트</label>
+                            </div>
+                          </li>
+                          <li class="store-check__item store-check__item--himart">
+                            <div class="store-check__button">
+                              <input type="checkbox" class="ui-checkbox" id="atmMapStore6" />
+                              <label for="atmMapStore6" class="store-check__button-label">하이마트</label>
+                            </div>
+                          </li>
+                          <li class="store-check__item store-check__item--post">
+                            <div class="store-check__button">
+                              <input type="checkbox" class="ui-checkbox" id="atmMapStore7" />
+                              <label for="atmMapStore7" class="store-check__button-label">우체국</label>
+                            </div>
+                          </li>
+                          <li class="store-check__item">
+                            <div class="store-check__button">
+                              <input type="checkbox" class="ui-checkbox" id="atmMapStore8" />
+                              <label for="atmMapStore8" class="store-check__button-label">기타</label>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- //2021.04.12 : add : 필터 항목 변경 -->
+                      <!-- 2021.05.10 : add : 전체 해제 버튼 추가 -->
+                      <button type="button" class="ui-button atm-find__reset">전체 해제</button>
+                      <!-- //2021.05.10 : add : 전체 해제 버튼 추가 -->
+                    </div>
+                    <div class="atm-find__scroller">
+                      <div class="ui-scroller">
+                        <div class="empty-contents">
+                          <div class="empty-contents__inner">
+                            <p class="empty-contents__text">검색 결과가 없습니다.</p>
+                          </div>
+                        </div>
+                        <ul class="atm-find__list">
+                          <li class="atm-find__item">
+                            <button type="button" class="ui-button atm-find__link">
+                              <strong class="atm-find__name">디폴트 아이콘점</strong>
+                              <address class="atm-find__address">서울 성동구 왕십리광장로 17</address>
+                            </button>
+                          </li>
+                          <li class="atm-find__item atm-find__item--sk">
+                            <button type="button" class="ui-button atm-find__link">
+                              <strong class="atm-find__name">SK 아이콘점</strong>
+                              <address class="atm-find__address">서울 성동구 왕십리광장로 17</address>
+                            </button>
+                          </li>
+                          <!-- 2021.08.25 : add : LG U+, KT 추가 -->
+                          <li class="atm-find__item atm-find__item--lg">
+                            <button type="button" class="ui-button atm-find__link">
+                              <strong class="atm-find__name">LG U+ 아이콘점</strong>
+                              <address class="atm-find__address">서울 성동구 왕십리광장로 17</address>
+                            </button>
+                          </li>
+                          <li class="atm-find__item atm-find__item--kt">
+                            <button type="button" class="ui-button atm-find__link">
+                              <strong class="atm-find__name">KT 아이콘점</strong>
+                              <address class="atm-find__address">서울 성동구 왕십리광장로 17</address>
+                            </button>
+                          </li>
+                          <!-- //2021.08.25 : add : LG U+, KT 추가 -->
+                          <li class="atm-find__item atm-find__item--emart">
+                            <button type="button" class="ui-button atm-find__link">
+                              <strong class="atm-find__name">이마트 아이콘점</strong>
+                              <address class="atm-find__address">서울 강남구 삼성동 태헤란로 517 현대백화점 무역센터점</address>
+                            </button>
+                          </li>
+                          <li class="atm-find__item atm-find__item--homeplus">
+                            <button type="button" class="ui-button atm-find__link">
+                              <strong class="atm-find__name">홈플러스 아이콘점</strong>
+                              <address class="atm-find__address">서울 성동구 왕십리광장로 17</address>
+                            </button>
+                          </li>
+                          <li class="atm-find__item atm-find__item--samsung">
+                            <button type="button" class="ui-button atm-find__link">
+                              <strong class="atm-find__name">삼성 아이콘점</strong>
+                              <address class="atm-find__address">서울 성동구 왕십리광장로 17</address>
+                            </button>
+                          </li>
+                          <li class="atm-find__item atm-find__item--lottemart">
+                            <button type="button" class="ui-button atm-find__link">
+                              <strong class="atm-find__name">롯데마트 아이콘점</strong>
+                              <address class="atm-find__address">서울 성동구 왕십리광장로 17</address>
+                            </button>
+                          </li>
+                          <!-- 2020.12.17 : add : 우체국, 하이마트 아이콘 추가 -->
+                          <li class="atm-find__item atm-find__item--post">
+                            <button type="button" class="ui-button atm-find__link">
+                              <strong class="atm-find__name">우체국 아이콘점</strong>
+                              <address class="atm-find__address">서울 성동구 왕십리광장로 17</address>
+                            </button>
+                          </li>
+                          <li class="atm-find__item atm-find__item--himart">
+                            <button type="button" class="ui-button atm-find__link">
+                              <strong class="atm-find__name">하이마트 아이콘점</strong>
+                              <address class="atm-find__address">서울 성동구 왕십리광장로 17</address>
+                            </button>
+                          </li>
+                          <!-- //2020.12.17 : add : 우체국, 하이마트 아이콘 추가 -->
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- //contents -->
+
+        <!-- 2021.02.05 : add : 플로팅 메뉴 추가 -->
+        <!-- quick menu -->
+        <div class="quick-menu">
+          <ul class="quick-menu__list">
+            <!-- 2021.04.19 : mod : 챗봇 문구 변경 및 카카오 채널 추가 -->
+            <li class="quick-menu__item quick-menu__item--chatbot">
+              <a href="" class="quick-menu__link">
+                <span class="for-a11y">민팃 챗봇</span>
+              </a>
+            </li>
+            <li class="quick-menu__item quick-menu__item--kakao-channel">
+              <a href="" class="quick-menu__link">
+                <span class="for-a11y">민팃 카카오 채널</span>
+              </a>
+            </li>
+            <!-- //2021.04.19 : mod : 챗봇 문구 변경 및 카카오 채널 추가 -->
+            <li class="quick-menu__item quick-menu__item--top">
+              <a href="#wrap" class="quick-menu__link js-top-button">TOP</a>
+            </li>
+          </ul>
+        </div>
+        <!-- //quick menu -->
+        <!-- //2021.02.05 : add : 플로팅 메뉴 추가 -->
+      </div>
+    </div>
+
+    <!-- script -->
+    <script type="text/javascript" src="./assets/js/polyfills.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="./assets/js/simplebar.min.js"></script>
+    <script type="text/javascript" src="./assets/js/swiper.min.js"></script>
+    <script type="text/javascript" src="./assets/js/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="./assets/js/apexcharts.min.js"></script>
+    <script type="text/javascript" src="./assets/js/ui-script.js"></script>
+    <!-- //script -->
+  </body>
+</html>

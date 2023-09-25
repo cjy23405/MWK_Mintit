@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="close_big" width="28" height="28" viewBox="0 0 28 28">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#222;stroke-linecap:round;stroke-miterlimit:10;stroke-width:1.8px}
+        </style>
+    </defs>
+    <path id="선_97" d="M0 0L14 14" class="cls-1" transform="translate(7 7)"/>
+    <path id="선_98" d="M14 0L0 14" class="cls-1" transform="translate(7 7)"/>
+    <path id="사각형_9439" fill="none" d="M0 0H28V28H0z"/>
+</svg>

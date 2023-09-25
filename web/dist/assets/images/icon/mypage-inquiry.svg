@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-3{fill:#0f0f0f;stroke:#0f0f0f}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="ic_q_a" transform="translate(-38 -591)">
+        <path id="사각형_5715" d="M0 0H34V34H0z" class="cls-1" transform="translate(38 591)"/>
+        <path id="사각형_5716" d="M0 0H28V28H0z" class="cls-1" transform="translate(41 594)"/>
+        <g id="합치기_79" fill="none">
+            <path d="M0 16.291a16.291 16.291 0 1 1 29.7 9.246l.6 5.586a.554.554 0 0 1-.746.617l-4.193-1.918A16.292 16.292 0 0 1 0 16.291z" class="cls-4" transform="translate(38.708 591.708)"/>
+            <path fill="#0f0f0f" d="M16.287 1.5c-3.95 0-7.664 1.539-10.458 4.333-2.793 2.794-4.331 6.508-4.331 10.458 0 3.953 1.538 7.668 4.331 10.462 2.793 2.793 6.507 4.331 10.458 4.331 2.953 0 5.803-.867 8.241-2.506l.697-.47.764.35 2.65 1.212-.43-3.972-.06-.555.319-.46c1.709-2.47 2.612-5.371 2.612-8.392 0-3.95-1.539-7.663-4.333-10.458C23.952 3.04 20.237 1.5 16.287 1.5m0-1.5C25.283 0 32.58 7.297 32.58 16.291c0 3.436-1.062 6.621-2.879 9.246l.604 5.586c.041.369-.229.664-.537.664-.069 0-.14-.015-.21-.047l-4.193-1.918c-2.594 1.744-5.719 2.762-9.078 2.762-8.998 0-16.289-7.291-16.289-16.293C-.002 7.297 7.289 0 16.288 0z" transform="translate(38.708 591.708)"/>
+        </g>
+        <g id="타원_642" class="cls-3" transform="translate(46 606.5)">
+            <circle cx="1.5" cy="1.5" r="1.5" class="cls-4"/>
+            <circle cx="1.5" cy="1.5" r="1" class="cls-1"/>
+        </g>
+        <g id="타원_643" class="cls-3" transform="translate(53.5 606.5)">
+            <circle cx="1.5" cy="1.5" r="1.5" class="cls-4"/>
+            <circle cx="1.5" cy="1.5" r="1" class="cls-1"/>
+        </g>
+        <g id="타원_644" class="cls-3" transform="translate(61 606.5)">
+            <circle cx="1.5" cy="1.5" r="1.5" class="cls-4"/>
+            <circle cx="1.5" cy="1.5" r="1" class="cls-1"/>
+        </g>
+    </g>
+</svg>

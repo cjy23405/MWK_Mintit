@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <defs>
+        <style>
+            .cls-2{fill:#0f0f0f}
+        </style>
+    </defs>
+    <g id="add-contents">
+        <circle id="타원_563" cx="30" cy="30" r="30" fill="#e9e9e9"/>
+        <path id="사각형_6688" d="M28.5 19.5h3v21h-3z" class="cls-2"/>
+        <path id="사각형_6689" d="M19.5 28.5h21v3h-21z" class="cls-2"/>
+    </g>
+</svg>

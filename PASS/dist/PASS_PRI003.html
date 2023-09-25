@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>Mintit PASS</title>
+
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- 2021.05.20 : mod : 뷰포트 값 변경 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <!-- //2021.05.20 : mod : 뷰포트 값 변경 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- style -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/common.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/ui-style.css" />
+    <!-- //style -->
+  </head>
+  <body>
+    <a href="" data-layer-open="layer-my-phone-select">내 폰 선택</a>
+
+    <!-- layer: 내 폰 선택 -->
+    <div class="layer-wrap layer-alert layer-my-phone-select" data-layer="layer-my-phone-select">
+      <div class="layer-container">
+        <section class="ui-alert">
+          <div class="ui-alert__body">
+            <div class="ui-alert__body-inner">
+              <h2 class="for-a11y">내 폰 선택</h2>
+
+              <p class="ui-alert-message">확인하고 싶은 휴대폰을 선택해주세요.</p>
+
+              <div class="select-phone select-phone--full">
+                <ul class="select-phone__list">
+                  <li class="select-phone__item">
+                    <div class="select-phone__button">
+                      <input type="radio" class="ui-radio" name="myPhone" id="myPhone1" />
+                      <label for="myPhone1" class="select-phone__button-label">아이폰 11 PRO MAX 64G</label>
+                    </div>
+                  </li>
+                  <li class="select-phone__item">
+                    <div class="select-phone__button">
+                      <input type="radio" class="ui-radio" name="myPhone" id="myPhone2" />
+                      <label for="myPhone2" class="select-phone__button-label">갤럭시노트 9 128G</label>
+                    </div>
+                  </li>
+                  <li class="select-phone__item">
+                    <div class="select-phone__button">
+                      <input type="radio" class="ui-radio" name="myPhone" id="myPhone3" />
+                      <label for="myPhone3" class="select-phone__button-label">팬텍 베가 시크릿 노트</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="ui-alert__foot">
+            <div class="ui-buttons ui-buttons--full">
+              <ul class="ui-buttons__list">
+                <li class="ui-buttons__item">
+                  <button type="button" class="ui-button ui-basic-button">확인</button>
+                </li>
+                <li class="ui-buttons__item">
+                  <button type="button" class="ui-button ui-basic-button ui-basic-button--tertiary" data-role="layerClose">닫기</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- //layer: 내 폰 선택 -->
+
+    <!-- script -->
+    <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./assets/js/apexcharts.min.js"></script>
+    <script type="text/javascript" src="./assets/js/swiper.min.js"></script>
+    <script type="text/javascript" src="./assets/js/ui-script.js"></script>
+    <script type="text/javascript">
+      // 퍼블리셔 테스트 소스 입니다. 운영엔 반영하지 말아주세요.
+      $(function () {
+        uiJSLayer.open('layer-my-phone-select');
+      });
+    </script>
+    <!-- //script -->
+  </body>
+</html>

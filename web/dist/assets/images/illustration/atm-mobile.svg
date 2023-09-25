@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="395" viewBox="0 0 260 395">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_8582" d="M0 0H260V395H0z" class="cls-1" transform="translate(50 757)"/>
+        </clipPath>
+        <filter id="Rectangle_8396" width="230" height="401" x="15" y="18" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="5"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <g id="atm" clip-path="url(#clip-path)" transform="translate(-50 -757)">
+        <g filter="url(#Rectangle_8396)" transform="translate(50 757)">
+            <g id="Rectangle_8396-2" fill="#fff" stroke="#fff">
+                <path stroke="none" d="M24 0h152a24 24 0 0 1 24 24v347H0V24A24 24 0 0 1 24 0z" transform="translate(30 30)"/>
+                <path d="M24 .5h152A23.5 23.5 0 0 1 199.5 24v346a.5.5 0 0 1-.5.5H1a.5.5 0 0 1-.5-.5V24A23.5 23.5 0 0 1 24 .5z" class="cls-1" transform="translate(30 30)"/>
+            </g>
+        </g>
+    </g>
+</svg>

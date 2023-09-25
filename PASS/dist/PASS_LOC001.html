@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>Mintit PASS</title>
+
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- 2021.05.20 : mod : 뷰포트 값 변경 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <!-- //2021.05.20 : mod : 뷰포트 값 변경 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- style -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/common.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/ui-style.css" />
+    <!-- //style -->
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="layout-wrap">
+        <div class="header-wrap">
+          <header class="header">
+            <h1 class="header__title">PASS 휴대폰</h1>
+            <div class="header__left">
+              <button type="button" class="ui-button header__button header__button--back">
+                <span class="for-a11y">뒤로</span>
+              </button>
+            </div>
+          </header>
+        </div>
+
+        <div class="contents-wrap contents-wrap--atm-map">
+          <section class="contents">
+            <div class="primary-tab">
+              <ul class="primary-tab__list">
+                <li class="primary-tab__item">
+                  <a href="" class="primary-tab__button">
+                    <span class="primary-tab__text">시세조회</span>
+                  </a>
+                </li>
+                <li class="primary-tab__item">
+                  <a href="" class="primary-tab__button">
+                    <span class="primary-tab__text">ATM소개</span>
+                  </a>
+                </li>
+                <li class="primary-tab__item">
+                  <a href="" class="primary-tab__button is-active">
+                    <span class="primary-tab__text">내폰팔기</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <h2 class="for-a11y">내폰팔기</h2>
+
+            <div class="atm-map">
+              <div class="atm-map__map-area">
+                <div style="width: 100%; height: 100%; box-sizing: border-box; padding: 100px 0; text-align: center; background: #eee">
+                  //map<br /><br />
+                  <!-- DD : 디폴트 마커 -->
+                  <img src="./assets/images/icon/marker-mintit.png" alt="" width="40" height="41" />
+                  <!-- DD : SK 마커 -->
+                  <img src="./assets/images/icon/marker-sk.png" alt="" width="40" height="41" />
+                  <!-- DD : 이마트 마커 -->
+                  <img src="./assets/images/icon/marker-emart.png" alt="" width="40" height="41" />
+                  <!-- DD : 홈플러스 마커 -->
+                  <img src="./assets/images/icon/marker-homeplus.png" alt="" width="40" height="41" />
+                  <!-- DD : 삼성 마커 -->
+                  <img src="./assets/images/icon/marker-samsung.png" alt="" width="40" height="41" />
+                  <!-- DD : 롯데마트 마커 -->
+                  <img src="./assets/images/icon/marker-lottemart.png" alt="" width="40" height="41" />
+                  <!-- DD : 우체국 마커 -->
+                  <img src="./assets/images/icon/marker-post.png" alt="" width="40" height="41" />
+                  <!-- DD : 하이마트 마커 -->
+                  <img src="./assets/images/icon/marker-himart.png" alt="" width="40" height="41" />
+                </div>
+              </div>
+
+              <button type="button" class="ui-button atm-map__search-opener">
+                <span class="for-a11y">ATM 검색</span>
+              </button>
+
+              <div class="atm-map__bottom">
+                <button type="button" class="ui-button atm-map__gps">
+                  <span class="for-a11y">내 위치</span>
+                </button>
+
+                <section class="atm-info">
+                  <h3 class="atm-info__name">이마트 왕십리점</h3>
+                  <address class="atm-info__address">서울 성동구 왕십리광장로 17</address>
+                  <button type="button" class="ui-button ui-basic-button atm-info__navigation">길찾기</button>
+                  <dl class="atm-info__detail">
+                    <dt class="atm-info__detail-key">설치 장소</dt>
+                    <dd class="atm-info__detail-val">고객만족센터</dd>
+                    <dt class="atm-info__detail-key">운영 시간</dt>
+                    <dd class="atm-info__detail-val">AM 10:00 ~ PM 10:00</dd>
+                    <dt class="atm-info__detail-key">휴무일</dt>
+                    <dd class="atm-info__detail-val">매월 2,4번째 일요일</dd>
+                  </dl>
+                </section>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./assets/js/apexcharts.min.js"></script>
+    <script type="text/javascript" src="./assets/js/swiper.min.js"></script>
+    <script type="text/javascript" src="./assets/js/ui-script.js"></script>
+    <!-- //script -->
+  </body>
+</html>

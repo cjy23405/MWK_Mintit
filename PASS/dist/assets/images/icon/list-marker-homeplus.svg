@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="ic_pin_homeplus" transform="translate(-15 -312)">
+        <path id="사각형_8539" fill="none" d="M0 0H32V32H0z" transform="translate(15 312)"/>
+        <path id="패스_8845" fill="#dc0019" d="M80.573 0a10.082 10.082 0 0 0-10 10.14c0 6.939 8.949 17.126 9.33 17.557a.892.892 0 0 0 1.34 0c.381-.43 9.33-10.617 9.33-17.557a10.082 10.082 0 0 0-10-10.14z" transform="translate(-49.573 314)"/>
+        <g id="그룹_4586" transform="translate(-218.756 -162.936)">
+            <g id="그룹_4585" transform="translate(243.756 481.936)">
+                <g id="그룹_4584">
+                    <g id="그룹_4583">
+                        <path id="패스_8869" d="M278.319 484.935v6a3 3 0 0 1-6 0v-6a3 3 0 1 1 6 0zm-5.173 6a2.174 2.174 0 0 0 4.348 0v-6a2.174 2.174 0 0 0-4.348 0z" class="cls-3" transform="translate(-269.319 -481.936)"/>
+                        <path id="패스_8870" d="M252.756 516.5h-6a3 3 0 0 1 0-6h6a3 3 0 1 1 0 6zm-6-5.173a2.174 2.174 0 0 0 0 4.348h6a2.174 2.174 0 0 0 0-4.348z" class="cls-3" transform="translate(-243.756 -507.498)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

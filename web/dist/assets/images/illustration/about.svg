@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="498" height="445" viewBox="0 0 498 445">
+    <defs>
+        <filter id="사각형_8360" width="267" height="425" x="116" y="52" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="타원_1075" width="128" height="128" x="67" y="317" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur-2" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="타원_1054" width="142" height="142" x="289" y="4" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur-3" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur-3" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <clipPath id="clip-path">
+            <path id="사각형_8438" d="M0 0H291V396H0z" class="cls-1" transform="translate(.172 -.072)"/>
+        </clipPath>
+        <style>
+            .cls-1,.cls-10{fill:none}.cls-10{stroke:#fff;stroke-width:3px}.cls-13{stroke:none}
+        </style>
+    </defs>
+    <g id="img_introduce_2" transform="translate(0 -896)">
+        <path id="사각형_8439" d="M0 0H498V443H0z" class="cls-1" transform="translate(0 896)"/>
+        <g id="마스크_그룹_59" clip-path="url(#clip-path)" transform="translate(103.828 925.072)">
+            <g filter="url(#사각형_8360)" transform="translate(-103.83 -29.07)">
+                <g id="사각형_8360-2" fill="#fff" stroke="#e9e9e9" stroke-width="12px" transform="translate(125 58)">
+                    <rect width="249" height="407" class="cls-13" rx="30"/>
+                    <rect width="237" height="395" x="6" y="6" class="cls-1" rx="24"/>
+                </g>
+            </g>
+        </g>
+        <g filter="url(#타원_1075)" transform="translate(0 896)">
+            <circle id="타원_1075-2" cx="55" cy="55" r="55" fill="#6a7373" opacity="0.5" transform="translate(76 323)"/>
+        </g>
+        <circle id="타원_1042" cx="46" cy="46" r="46" fill="#6a7373" transform="translate(85 1228)"/>
+        <g filter="url(#타원_1054)" transform="translate(0 896)">
+            <circle id="타원_1054-2" cx="62" cy="62" r="62" fill="#3dd3c6" opacity="0.5" transform="translate(298 10)"/>
+        </g>
+        <circle id="타원_1043" cx="53" cy="53" r="53" fill="#2bd3c6" transform="translate(307 915)"/>
+        <g id="패스_8152" fill="none">
+            <path d="M1.059-1.913l21.63-9.838 21.98 9.465s1.536 16.914-3.839 29-18.14 16.914-18.14 16.914A34.154 34.154 0 0 1 4.74 26.71C-1.4 13.823 1.059-1.913 1.059-1.913z" class="cls-13" transform="translate(108.778 1258.382)"/>
+            <path fill="#fff" d="M22.722-8.47L3.84.118c-.155 1.589-.336 4.267-.24 7.493.09 3.04.404 5.966.935 8.697.651 3.356 1.632 6.421 2.914 9.11 1.257 2.639 2.881 5.082 4.827 7.263 1.568 1.758 3.35 3.353 5.296 4.742 2.124 1.516 3.991 2.457 5.083 2.946 1.173-.547 3.222-1.603 5.502-3.223 2.037-1.448 3.86-3.059 5.418-4.788 1.912-2.123 3.431-4.433 4.514-6.868 2.04-4.584 3.31-10.762 3.675-17.865.172-3.338.105-6.17.026-7.885L22.722-8.47m-.033-3.281l21.98 9.465s1.535 16.914-3.84 28.996C35.454 38.79 22.69 43.624 22.69 43.624S10.883 39.597 4.74 26.71C-1.402 13.823 1.06-1.913 1.06-1.913l21.63-9.838z" transform="translate(108.778 1258.382)"/>
+        </g>
+        <path id="패스_8153" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px" d="M546.669-11298.236l6.141 6.443 10.471-11.076" transform="translate(-423.476 12571.65)"/>
+        <g id="사각형_8362" class="cls-10" transform="translate(334 959)">
+            <rect width="52" height="39" class="cls-13" rx="8"/>
+            <rect width="49" height="36" x="1.5" y="1.5" class="cls-1" rx="6.5"/>
+        </g>
+        <g id="사각형_8363" class="cls-10">
+            <path d="M14 0a14 14 0 0 1 14 14v10H0V14A14 14 0 0 1 14 0z" class="cls-13" transform="translate(346 938)"/>
+            <path d="M14 1.5A12.5 12.5 0 0 1 26.5 14v8.113a.387.387 0 0 1-.387.387H1.887a.387.387 0 0 1-.387-.387V14A12.5 12.5 0 0 1 14 1.5z" class="cls-1" transform="translate(346 938)"/>
+        </g>
+        <rect id="사각형_8364" width="4.153" height="11.075" fill="#fff" rx="2.077" transform="translate(357.861 973.141)"/>
+        <path id="패스_8566" fill="#3dd3c6" d="M62.954 34.74c0 2.062-1.959 3.732-4.372 3.732s-4.372-1.67-4.372-3.732V14.224c0-2.062 1.959-3.732 4.372-3.732s4.372 1.67 4.372 3.732zm69.95 0c0 2.062-1.959 3.732-4.372 3.732s-4.372-1.67-4.372-3.732V14.224c0-2.062 1.959-3.732 4.372-3.732s4.372 1.67 4.372 3.732zM90.051 10.492c-2.419 0-4.379 1.67-4.379 3.732v13.562a3.266 3.266 0 0 0-.3-.88c-1.4-2.268-7.348-11.877-8.87-14.362a4.528 4.528 0 0 0-3.922-2.051c-2.422 0-4.381 1.67-4.381 3.732v20.512c0 2.06 1.96 3.73 4.381 3.73l6.128.005a18.8 18.8 0 0 0-3.942-3.783c-4.736-3.253-2.119-8.062 2.245-6.99 4.225 1.04 4.382 8.331 4.382 10.772 1.894 0 6.509 0 8.677-.005 2.41-.005 4.36-1.675 4.36-3.73V14.224c0-2.062-1.96-3.732-4.381-3.732m27.21 0H99.582a3.707 3.707 0 0 0-3.4 3.95 3.707 3.707 0 0 0 3.4 3.95h4.739V34.74a4.119 4.119 0 0 0 8.2 0V18.393h4.739a3.708 3.708 0 0 0 3.4-3.952 3.706 3.706 0 0 0-3.4-3.949M161.473.332a3.412 3.412 0 0 0-4.223 1.023 3.5 3.5 0 0 0 .64 4.86 1.61 1.61 0 0 1-1.184 2.885h-16.758c-1.959 0-3.546 1.857-3.546 4.146s1.588 4.146 3.546 4.146h4.94v17.163a4.29 4.29 0 0 0 8.548 0V17.391h3.464c5.634 0 9.232-3.4 9.232-8.5 0-3.291-2.154-7.506-4.657-8.555M42.963 10.5a4.154 4.154 0 0 0-3.809 2.076c-1.488 2.5-6.023 10.162-7.026 11.856a2.21 2.21 0 0 0-.2.533 2.159 2.159 0 0 0-.2-.542c-.993-1.674-5.381-9.067-6.983-11.755a4.115 4.115 0 0 0-3.845-2.176 4.194 4.194 0 0 0-4.382 3.777c-1.74 10.8-2.735 19.88-6.406 19.88A2.512 2.512 0 0 1 7.85 30.19C9.049 28 9.642 25.871 6.7 24.4a3.837 3.837 0 0 0-4.274.741c-4.512 4.61-3.183 16.83 7.829 16.83 8.006 0 11.6-4.573 13.217-16.262.822 1.784 2.506 6.358 4.145 10.527a4.072 4.072 0 0 0 3.783 2.582h3c0-2.471.154-9.851 4.255-10.9 4.245-1.089 6.782 3.782 2.185 7.072a18.558 18.558 0 0 0-3.826 3.828l5.949-.005a4.036 4.036 0 0 0 4.253-3.776v-20.76a4.038 4.038 0 0 0-4.253-3.777" transform="translate(166.125 1123.038)"/>
+    </g>
+</svg>

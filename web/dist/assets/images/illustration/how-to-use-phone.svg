@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="323" height="448" viewBox="0 0 323 448">
+    <defs>
+        <clipPath id="pooed1whla">
+            <path fill="none" d="M0 0H323V448H0z"/>
+        </clipPath>
+        <filter id="83umcivgmb" width="352" height="474" x="-14" y="7" filterUnits="userSpaceOnUse">
+            <feOffset dx="3" dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="10"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g clip-path="url(#pooed1whla)">
+        <g filter="url(#83umcivgmb)">
+            <path fill="#fff" d="M32 0h228a32 32 0 0 1 32 32v382H0V32A32 32 0 0 1 32 0z" transform="translate(13 34)"/>
+        </g>
+        <circle cx="3" cy="3" r="3" fill="#c9c9c9" transform="translate(121 61)"/>
+        <rect width="49" height="6" fill="#e2e2e2" rx="3" transform="translate(136 61)"/>
+        <path fill="#f2eded" d="M0 0H263V365H0z" transform="translate(30 83)"/>
+    </g>
+</svg>

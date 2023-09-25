@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-3{stroke:#fff}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="btn_search_delete" transform="translate(-318 -102)">
+        <path id="사각형_6251" d="M0 0H24V24H0z" class="cls-1" transform="translate(318 102)"/>
+        <path id="사각형_6252" d="M0 0H20V20H0z" class="cls-1" transform="translate(320 104)"/>
+        <circle id="타원_507" cx="9" cy="9" r="9" fill="#cfcfcf" transform="translate(321 105)"/>
+        <g id="사각형_6267" class="cls-3" transform="rotate(-45 296.806 -338.234)">
+            <rect width="1" height="10" class="cls-4" rx=".5"/>
+            <rect height="9" x=".5" y=".5" class="cls-1"/>
+        </g>
+        <g id="사각형_6268" class="cls-3" transform="rotate(45 33.683 457.223)">
+            <rect width="1" height="10" class="cls-4" rx=".5"/>
+            <rect height="9" x=".5" y=".5" class="cls-1"/>
+        </g>
+    </g>
+</svg>

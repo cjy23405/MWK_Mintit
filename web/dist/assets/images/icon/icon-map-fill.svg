@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_map_s" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <path id="Rectangle_5715" d="M0 0H24V24H0z" class="cls-1"/>
+    <path id="Rectangle_5716" d="M0 0H20V20H0z" class="cls-1" transform="translate(2 2)"/>
+    <path id="Subtraction_29" fill="#0f0f0f" d="M23373.5 14956a10.5 10.5 0 1 1 10.5-10.5 10.439 10.439 0 0 1-10.5 10.5zm3.988-14.506l-5.824 2.171-2.178 5.827 5.828-2.178z" transform="translate(-23361.5 -14933.5)"/>
+</svg>

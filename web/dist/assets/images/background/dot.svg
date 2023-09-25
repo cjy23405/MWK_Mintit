@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2" height="8" viewBox="0 0 2 8">
+    <g>
+        <path fill="#dfdfdf" d="M0 0H2V3H0z" transform="translate(-689.5 -664) translate(689.5 664)"/>
+        <path fill="none" d="M0 0H2V5H0z" transform="translate(-689.5 -664) translate(689.5 667)"/>
+    </g>
+</svg>

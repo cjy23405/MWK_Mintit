@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="470" viewBox="0 0 400 470">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_8590" fill="none" stroke="#707070" d="M0 0H400V470H0z" transform="translate(1245 826)"/>
+        </clipPath>
+        <filter id="사각형_8396" width="380" height="647" x="10" y="118" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="5"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-7{fill:none}.cls-6{stroke:none}
+        </style>
+    </defs>
+    <g id="miniatm" clip-path="url(#clip-path)" transform="translate(-1245 -826)">
+        <g filter="url(#사각형_8396)" transform="translate(1245 826)">
+            <g id="사각형_8396-2" fill="#fff" stroke="#fff">
+                <path d="M24 0h302a24 24 0 0 1 24 24v593H0V24A24 24 0 0 1 24 0z" class="cls-6" transform="translate(25 130)"/>
+                <path d="M24 .5h302A23.5 23.5 0 0 1 349.5 24v592a.5.5 0 0 1-.5.5H1a.5.5 0 0 1-.5-.5V24A23.5 23.5 0 0 1 24 .5z" class="cls-7" transform="translate(25 130)"/>
+            </g>
+        </g>
+        <g id="사각형_8425" fill="#0f0f0f" stroke="#fff" stroke-width="6px" transform="translate(1315 856)">
+            <rect width="263" height="312" class="cls-6" rx="24"/>
+            <rect width="257" height="306" x="3" y="3" class="cls-7" rx="21"/>
+        </g>
+        <g id="사각형_8426" fill="none" stroke="#f4f4f4" transform="translate(1315 856)">
+            <rect width="263" height="312" class="cls-6" rx="24"/>
+            <rect width="262" height="311" x=".5" y=".5" class="cls-7" rx="23.5"/>
+        </g>
+    </g>
+</svg>

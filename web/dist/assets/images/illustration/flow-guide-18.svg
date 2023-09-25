@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <style>
+            .cls-2{fill:#afc1da}
+        </style>
+    </defs>
+    <g id="ic_join_step_05" transform="translate(-1210.385 -1022.625)">
+        <g id="ic_step3" transform="translate(1210.385 1022.625)">
+            <path id="사각형_6781" fill="none" d="M0 0H80V80H0z" transform="translate(0 0.001)"/>
+        </g>
+        <g id="그룹_2189" transform="translate(1220.48 1035.577)">
+            <g id="그룹_2187">
+                <rect id="사각형_8108" width="59.762" height="43.043" class="cls-2" rx="2.385"/>
+                <path id="사각형_8109" fill="#edf1f7" d="M0 0H51.686V34.176H0z" transform="translate(4.038 4.038)"/>
+                <path id="사각형_8110" d="M0 0H15.838V7.101H0z" class="cls-2" transform="translate(22.061 43.044)"/>
+                <path id="사각형_8111" d="M0 0H41.965V3.907H0z" class="cls-2" transform="translate(8.997 50.145)"/>
+            </g>
+            <path id="사각형_8164" d="M0 0H34.519V1.699H0z" class="cls-2" transform="translate(12.509 27.026)"/>
+            <path id="사각형_8166" d="M0 0H34.519V1.699H0z" class="cls-2" transform="translate(12.509 31.444)"/>
+            <circle id="타원_756" cx="8" cy="8" r="8" fill="#3e79e8" transform="translate(21.905 8.048)"/>
+            <path id="패스_9935" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px" d="M-4067.062 1772.474l2.768 2.767 4.994-5.564" transform="translate(4093.286 -1756.33)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <style>
+            .cls-3{fill:#afc1da}
+        </style>
+    </defs>
+    <g id="ic_donation_step_03" transform="translate(0 .232)">
+        <path id="사각형_6781" fill="none" d="M0 0H80V80H0z" opacity="0.2" transform="translate(0 -.232)"/>
+        <path id="사각형_8132" fill="none" d="M0 0H64V63H0z" transform="translate(8 8.768)"/>
+        <path id="패스_4087" d="M-4039.85 1781.594v34.273a3.541 3.541 0 0 1-3.54 3.54h-29.74a3.541 3.541 0 0 1-3.541-3.54V1774.8a3.541 3.541 0 0 1 3.541-3.541h22.878z" class="cls-3" transform="translate(4094.201 -1752.141)"/>
+        <path id="패스_4088" fill="#edf1f7" d="M-4031.9 1773.637v34.272a3.54 3.54 0 0 1-3.541 3.541h-29.74a3.54 3.54 0 0 1-3.541-3.541v-41.069a3.541 3.541 0 0 1 3.541-3.541h22.877z" transform="translate(4092.627 -1750.565)"/>
+        <path id="사각형_8127" d="M0 0H25.491V1.416H0z" class="cls-3" transform="translate(29.567 34.027)"/>
+        <path id="사각형_8128" fill="#2bd3c6" d="M0 0H12.746V8.708H0z" transform="translate(29.567 21.446)"/>
+        <path id="사각형_8129" d="M0 0H25.491V1.416H0z" class="cls-3" transform="translate(29.567 39.318)"/>
+        <path id="사각형_8130" d="M0 0H25.491V1.416H0z" class="cls-3" transform="translate(29.567 44.606)"/>
+        <path id="사각형_8131" d="M0 0H25.491V1.416H0z" class="cls-3" transform="translate(29.567 49.897)"/>
+        <path id="패스_4089" d="M-4025.758 1775.525h-11.94V1763.3h1.6v10.622h10.336z" class="cls-3" transform="translate(4086.482 -1750.565)"/>
+        <circle id="타원_756" cx="9.562" cy="9.562" r="9.562" fill="#3e79e8" transform="translate(49.839 47.865)"/>
+        <path id="패스_8927" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M-4055.7 1788.781l3.517 3.706 5.978-5.738" transform="translate(4110.365 -1731.814)"/>
+    </g>
+</svg>

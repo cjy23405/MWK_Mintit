@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="ic_pin_himart" transform="translate(-15 -312)">
+        <path id="사각형_8539" fill="none" d="M0 0H32V32H0z" transform="translate(15 312)"/>
+        <path id="패스_8845" fill="#e5001b" d="M80.573 0a10.082 10.082 0 0 0-10 10.14c0 6.939 8.949 17.126 9.33 17.557a.892.892 0 0 0 1.34 0c.381-.43 9.33-10.617 9.33-17.557a10.082 10.082 0 0 0-10-10.14z" transform="translate(-49.573 314)"/>
+        <g id="그룹_4574" transform="translate(26 321.051)">
+            <path id="패스_8855" d="M291.8 252.429h-2.086v5.377l2.086-.689z" class="cls-3" transform="translate(-281.805 -249.866)"/>
+            <path id="사각형_8540" d="M0 0H2.086V1.915H0z" class="cls-3" transform="translate(7.91 -.051)"/>
+            <path id="패스_8850" d="M257.848 243.309h-2.619v-2.772h-2.086v7.95l2.086-.69v-2.817h2.619v3.506l2.086-.69v-7.26h-2.086z" class="cls-3" transform="translate(-253.143 -240.545)"/>
+        </g>
+    </g>
+</svg>

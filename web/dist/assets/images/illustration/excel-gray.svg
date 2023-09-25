@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <style>
+            .cls-3{fill:#cfcfcf}.cls-5{fill:#fff}
+        </style>
+    </defs>
+    <g id="btn_excel" transform="translate(-60 -340)">
+        <path id="사각형_7336" fill="none" d="M0 0H80V80H0z" transform="translate(60 340)"/>
+        <rect id="사각형_7337" width="57" height="46" fill="#e9e9e9" rx="3" transform="translate(74 357)"/>
+        <rect id="사각형_7339" width="12" height="4" class="cls-3" rx="2" transform="translate(98 366)"/>
+        <rect id="사각형_7342" width="12" height="4" class="cls-3" rx="2" transform="translate(98 374)"/>
+        <rect id="사각형_7344" width="12" height="4" class="cls-3" rx="2" transform="translate(98 382)"/>
+        <rect id="사각형_7346" width="12" height="4" class="cls-3" rx="2" transform="translate(98 390)"/>
+        <rect id="사각형_7340" width="9" height="4" class="cls-3" rx="2" transform="translate(114 366)"/>
+        <rect id="사각형_7341" width="9" height="4" class="cls-3" rx="2" transform="translate(114 374)"/>
+        <rect id="사각형_7343" width="9" height="4" class="cls-3" rx="2" transform="translate(114 382)"/>
+        <rect id="사각형_7345" width="9" height="4" class="cls-3" rx="2" transform="translate(114 390)"/>
+        <path id="패스_3866" fill="#aeaeae" d="M3 .085L31-5a3.026 3.026 0 0 1 3 3.051v53.9A3.026 3.026 0 0 1 31 55L3 49.915a3.026 3.026 0 0 1-3-3.051V3.136A3.026 3.026 0 0 1 3 .085z" transform="translate(69 355)"/>
+        <rect id="사각형_7347" width="3" height="27" class="cls-5" rx="1.5" transform="rotate(35.02 -536.49 329.477)"/>
+        <rect id="사각형_7348" width="3" height="27" class="cls-5" rx="1.5" transform="rotate(-35.02 625.019 63.764)"/>
+    </g>
+</svg>

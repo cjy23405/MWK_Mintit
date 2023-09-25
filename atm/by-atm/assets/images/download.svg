@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.003" height="16" viewBox="0 0 16.003 16">
+    <defs>
+        <style>
+            .cls-7{fill:none}.cls-4{fill:#fff;stroke:#333}.cls-5{stroke:none}
+        </style>
+    </defs>
+    <g id="btn_download" transform="translate(-319.998 -672)">
+        <g id="빼기_86" fill="none">
+            <path d="M14 6H2a2 2 0 0 1-2-2V0h1.2v3.714a1 1 0 0 0 1 1h11.6a1 1 0 0 0 1-1V0H16v4a2 2 0 0 1-2 2z" class="cls-5" transform="translate(320 682)"/>
+            <path fill="#333" d="M14 6H1.998c-1.103 0-2-.897-2-2V0h1.2v3.714c0 .552.45 1 1 1h11.603c.551 0 1-.448 1-1V.001H16V4c0 1.103-.897 2-2 2z" transform="translate(320 682)"/>
+        </g>
+        <g id="사각형_8746" fill="#fff" stroke="#333" stroke-linecap="round" transform="translate(327.329 672)">
+            <rect width="1.188" height="10.3" class="cls-5" rx=".594"/>
+            <rect width=".188" height="9.3" x=".5" y=".5" class="cls-7" rx=".094"/>
+        </g>
+        <path id="패스_8976" fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2px" d="M10405-15655l3.564 3.17 3.566-3.17" transform="translate(-10080.643 16334.923)"/>
+        <g id="사각형_8747" class="cls-4" transform="translate(320 681.507)">
+            <rect width="1.188" height="2.377" class="cls-5" rx=".594"/>
+            <rect width=".188" height="1.377" x=".5" y=".5" class="cls-7" rx=".094"/>
+        </g>
+        <g id="사각형_8748" class="cls-4" transform="translate(334.8 681.507)">
+            <rect width="1.188" height="2.377" class="cls-5" rx=".594"/>
+            <rect width=".188" height="1.377" x=".5" y=".5" class="cls-7" rx=".094"/>
+        </g>
+    </g>
+</svg>

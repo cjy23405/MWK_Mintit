@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="ic_pin_himart" transform="translate(.422 -.032)">
+        <path id="Rectangle_8539" fill="none" d="M0 0H40V40H0z" transform="translate(-.422 .032)"/>
+        <path id="Path_8845" fill="#e5001b" d="M83.067 0a12.6 12.6 0 0 0-12.494 12.669c0 8.67 11.181 21.4 11.657 21.935a1.115 1.115 0 0 0 1.674 0c.476-.538 11.657-13.265 11.657-21.935A12.6 12.6 0 0 0 83.067 0z" transform="translate(-63.077 2.499)"/>
+        <g id="Group_4574" transform="translate(13.743 11.245)">
+            <path id="Path_8855" d="M292.321 252.429h-2.606v6.718l2.606-.861z" class="cls-3" transform="translate(-279.832 -249.163)"/>
+            <path id="Rectangle_8540" d="M0 0H2.606V2.392H0z" class="cls-3" transform="translate(9.883)"/>
+            <path id="Path_8850" d="M259.021 244h-3.272v-3.464h-2.606v9.932l2.606-.862v-3.519h3.272v4.381l2.606-.862v-9.07h-2.606z" class="cls-3" transform="translate(-253.143 -240.484)"/>
+        </g>
+    </g>
+</svg>

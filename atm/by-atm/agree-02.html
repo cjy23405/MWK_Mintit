@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>민팃</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- favicon -->
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+    <!-- //favicon -->
+
+    <!-- style -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/common.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/ui-style.css" />
+    <!-- //style -->
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="layout-wrap">
+        <div class="header">
+          <!-- 2020.12.30 : mod : 문구 변경 -->
+          <h1 class="header__title">보험 계약 체결을 위한 청약서 및 각종 약관 동의</h1>
+          <!-- //2020.12.30 : mod : 문구 변경 -->
+          <a href="" class="header__back">
+            <span class="for-a11y">뒤로가기</span>
+          </a>
+        </div>
+        <div class="contents contents--agree">
+          <!-- 2020.12.30 : add : 타이틀 추가 -->
+          <h2 class="contents-title">각종 약관의 동의</h2>
+          <!-- 2020.12.30 : add : 타이틀 추가 -->
+
+          <form action="">
+            <p class="contents-text">
+              민팃 보험 계약 체결을 위하여<br />
+              아래 약관에 동의하여 주세요.
+            </p>
+
+            <div class="agree-row agree-row--all">
+              <div class="ui-checkbox-block">
+                <input type="checkbox" class="ui-checkbox" id="agreeAll" />
+                <label for="agreeAll" class="ui-label">
+                  <span class="ui-checkbox-object"></span>
+                  <span class="ui-label__text">전체동의</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="agree-row">
+              <div class="ui-checkbox-block">
+                <input type="checkbox" class="ui-checkbox" id="agree1" />
+                <label for="agree1" class="ui-label">
+                  <span class="ui-checkbox-object"></span>
+                  <span class="ui-label__text">소비자 권익보호에 관한 사항 (필수)</span>
+                </label>
+              </div>
+              <div class="agree-row__content">
+                <div class="agree-row__link">
+                  <a href="" class="arrow-link">자세히 보기</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="agree-row">
+              <div class="ui-checkbox-block">
+                <input type="checkbox" class="ui-checkbox" id="agree2" />
+                <label for="agree2" class="ui-label">
+                  <span class="ui-checkbox-object"></span>
+                  <span class="ui-label__text">계약의 체결 및 이행 등을 위한 동의 (필수)</span>
+                </label>
+              </div>
+              <div class="agree-row__content">
+                <p class="agree-row__text">개인정보의 수집 및 이용을 동의합니다.</p>
+                <div class="agree-row__link">
+                  <a href="" class="arrow-link">자세히 보기</a>
+                </div>
+              </div>
+              <div class="agree-row__content">
+                <p class="agree-row__text">개인정보의 제 3자 제공에 관한 사항에 동의합니다.</p>
+                <div class="agree-row__link">
+                  <a href="" class="arrow-link">자세히 보기</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="agree-row">
+              <div class="ui-checkbox-block">
+                <input type="checkbox" class="ui-checkbox" id="agree3" />
+                <label for="agree3" class="ui-label">
+                  <span class="ui-checkbox-object"></span>
+                  <span class="ui-label__text">서비스 개선을 위한 개인정보 수집, 이용 및 조회 동의 (선택)</span>
+                </label>
+              </div>
+              <div class="agree-row__content">
+                <!-- 2020.12.30 : del : 문구 제거
+                <p class="agree-row__text">보험청약 내용 등 상기 정보에 대해 계약자의 전자인 증을 통해 자필 서명을 대체함을 동의합니다.</p>
+                -->
+                <div class="agree-row__link">
+                  <a href="" class="arrow-link">자세히 보기</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2020.12.30 : add : 입력 폼 추가 -->
+            <div class="agree-row">
+              <div class="ui-checkbox-block">
+                <input type="checkbox" class="ui-checkbox" id="agree4" />
+                <label for="agree4" class="ui-label">
+                  <span class="ui-checkbox-object"></span>
+                  <span class="ui-label__text">보험청약 내용 등 상기 정보에 대해 계약자의 전자인 증을 통해 자필 서명을 대체함을 동의합니다.</span>
+                </label>
+              </div>
+            </div>
+            <!-- //2020.12.30 : add : 입력 폼 추가 -->
+
+            <ul class="reference-list">
+              <li class="reference-list__item">청약서, 상품설명서, 보험약관의 자세한 확인이 필요 하신 경우 다운로드 하실 수 있으며, 홈페이지를 통하 여서도 확인 하실 수 있습니다.</li>
+              <li class="reference-list__item">자세한 안내가 필요하신 고객님께서는 콜센터 (1566-0300)로 연락하여 주십시오.</li>
+            </ul>
+
+            <!-- 2020.12.30 : mod : 다운로드 링크 한개로 수정 -->
+            <a href="" class="pdf-download">보험약관 자세히 보기</a>
+            <!-- //2020.12.30 : mod : 다운로드 링크 한개로 수정 -->
+
+            <!-- 2020.12.30 : mod : 문구 변경 -->
+            <button type="submit" class="ui-button ui-basic-button">결재하기</button>
+            <!-- //2020.12.30 : mod : 문구 변경 -->
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

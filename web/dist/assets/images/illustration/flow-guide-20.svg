@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#afc1da}
+        </style>
+    </defs>
+    <g id="ic_return_step_04" transform="translate(-32 -806)">
+        <path id="사각형_6479" d="M0 0H80V80H0z" class="cls-1" transform="translate(32 806)"/>
+        <rect id="사각형_6170" width="35" height="58" class="cls-2" rx="2" transform="translate(53 814)"/>
+        <path id="사각형_6175" fill="#edf1f7" d="M0 0H25V47H0z" transform="translate(58 820)"/>
+        <path id="사각형_8121" d="M0 0H19V2H0z" class="cls-2" transform="translate(61 841)"/>
+        <path id="사각형_12179" d="M0 0H19V2H0z" class="cls-2" transform="translate(61 846)"/>
+        <path id="사각형_12180" d="M0 0H11V2H0z" class="cls-2" transform="translate(61 851)"/>
+        <g id="btn_go" transform="translate(77 854)">
+            <circle id="타원_488" cx="12" cy="12" r="12" fill="#3e79e8"/>
+            <path id="패스_2274" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" d="M9241-20680l3.99 3.988-3.99 3.992" transform="translate(-9225.86 20687.982)"/>
+            <g id="사각형_6184" fill="#fff" stroke="#fff" transform="translate(4.654 10.904)">
+                <rect width="14.628" height="2.194" stroke="none" rx="1.097"/>
+                <rect width="13.628" height="1.194" x=".5" y=".5" class="cls-1" rx=".597"/>
+            </g>
+        </g>
+        <path id="사각형_12002" fill="#2bd3c6" d="M0 0H10V9H0z" transform="translate(61 827)"/>
+    </g>
+</svg>

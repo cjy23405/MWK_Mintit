@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <style>
+            .cls-2{fill:#afc1da}
+        </style>
+    </defs>
+    <g id="ic_donation_step_05" transform="translate(.001)">
+        <path id="사각형_8158" fill="none" d="M0 0H80V80H0z" transform="translate(-.001)"/>
+        <rect id="사각형_8159" width="60.946" height="43.897" class="cls-2" rx="3" transform="translate(9.622 12.516)"/>
+        <path id="사각형_8160" fill="#edf1f7" d="M0 0H52.71V31.592H0z" transform="translate(13.74 16.635)"/>
+        <path id="사각형_8161" d="M0 0H16.151V7.242H0z" class="cls-2" transform="translate(32.12 56.414)"/>
+        <path id="사각형_8163" d="M0 0H42.797V3.984H0z" class="cls-2" transform="translate(18.797 63.656)"/>
+        <circle id="타원_756" cx="9.142" cy="9.142" r="9.142" fill="#3e79e8" transform="translate(30.908 23.183)"/>
+        <path id="패스_8927" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M-4055.7 1788.692l3.362 3.543 5.715-5.486" transform="translate(4091.219 -1756.807)"/>
+    </g>
+</svg>

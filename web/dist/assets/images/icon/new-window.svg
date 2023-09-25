@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="btn_newpage" transform="translate(-305 -2915.142)">
+        <path id="사각형_8451" d="M0 0H22V22H0z" class="cls-1" transform="translate(305 2915.143)"/>
+        <g id="합치기_106" fill="none">
+            <path d="M1 15.218a1 1 0 0 1-1-1V5.151a1 1 0 0 1 1-1h3.15V1a1 1 0 0 1 1-1h9.068a1 1 0 0 1 1 1v9.067a1 1 0 0 1-1 1h-3.15v3.15a1 1 0 0 1-1 1z" class="cls-4" transform="translate(308.459 2918.466)"/>
+            <path fill="#cfcfcf" d="M10.067 14.218v-4.15h4.15V1H5.15v4.15H1v9.068h9.067m0 1H1c-.553 0-1-.448-1-1V5.151c0-.553.447-1 1-1h3.15V1c0-.552.448-1 1-1h9.067c.553 0 1 .448 1 1v9.067c0 .553-.447 1.001-1 1.001h-3.15v3.15c0 .552-.448 1-1 1z" transform="translate(308.459 2918.466)"/>
+        </g>
+        <g id="사각형_8450" fill="none" stroke="#cfcfcf" transform="translate(312.609 2918.467)">
+            <rect width="11.067" height="11.067" class="cls-4" rx="1"/>
+            <rect width="10.067" height="10.067" x=".5" y=".5" class="cls-1" rx=".5"/>
+        </g>
+    </g>
+</svg>

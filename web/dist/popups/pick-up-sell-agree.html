@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>민팃</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- favicon -->
+    <link rel="icon" href="../assets/images/common/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="57x57" href="../assets/images/common/favicon-57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="../assets/images/common/favicon-60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="../assets/images/common/favicon-72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/images/common/favicon-76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="../assets/images/common/favicon-114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="../assets/images/common/favicon-120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="../assets/images/common/favicon-144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="../assets/images/common/favicon-152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/common/favicon-180.png" />
+    <!-- //favicon -->
+
+    <!-- style -->
+    <link type="text/css" rel="stylesheet" href="../assets/css/jquery-ui.min.css" />
+    <link type="text/css" rel="stylesheet" href="../assets/css/simplebar.css" />
+    <link type="text/css" rel="stylesheet" href="../assets/css/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="../assets/css/bootstrap-datetimepicker.min.css" />
+    <link type="text/css" rel="stylesheet" href="../assets/css/common.css" />
+    <link type="text/css" rel="stylesheet" href="../assets/css/ui-style.css" />
+    <link type="text/css" rel="stylesheet" href="../assets/css/ui-style--mobile.css" />
+    <!-- //style -->
+  </head>
+  <body>
+    <a href="" data-layer-open="layer-pick-up-sell-agree">판매 동의 확인</a>
+
+    <!-- layer: 판매 동의 확인 -->
+    <div class="layer-wrap layer-pick-up-sell-agree" data-layer="layer-pick-up-sell-agree">
+      <div class="layer-container">
+        <section class="ui-layer ui-layer--small">
+          <div class="ui-layer__head">
+            <div class="ui-layer-header">
+              <div class="ui-layer-header__right">
+                <button type="button" class="ui-button ui-layer-header__btn ui-layer-header__btn--close" data-role="layerClose">
+                  <span class="for-a11y">레이어 닫기</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- 2020.12.11 : del : form 태그 제거
+          <form action="" class="ui-layer__form">
+          -->
+          <div class="ui-layer__body">
+            <div class="ui-layer__body-inner">
+              <h2 class="layer-contents-title layer-contents-title--light">
+                <strong>접수완료</strong>
+              </h2>
+
+              <div class="layer-contents-message">
+                홈픽기사님이 사전 연락 후 방문 예정이오니 <span class="color-red">반드시 계정 삭제 및 초기화 후 부속품(충전기, 케이블, 이어폰)을 제외하고, 중고폰 본체만 택배박스에 포장</span> 전달
+                부탁드립니다.<br /><br />
+
+                오픈 프로모션으로 택배비는 무료입니다.<br />
+                <span class="color-red">(단, 계정잠김, 매입불가 휴대폰 반송 시 택배비는 착불입니다.)</span><br /><br />
+
+                정상해지 되지 않은 단말의 경우 판매가 불가능하며, 입력하신 정보와 실제 수거된 제품의 상태가 다를 경우 판매금액이 달라질 수 있습니다.<br />
+                판매를 원하지 않을 경우, 상품은 입력하신 주소로 반송됩니다.<br /><br />
+
+                검수 완료 후 최종감정가를 알림톡으로 알려드립니다.<br />
+                판매 동의하시면 입금이 완료됩니다.
+              </div>
+
+              <div class="ui-checkbox-block">
+                <input type="checkbox" class="ui-checkbox" id="layerPickUpSellAgree" />
+                <label for="layerPickUpSellAgree" class="ui-label">
+                  <span class="ui-checkbox-object"></span>
+                  <span class="ui-label__text">동의합니다.</span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="ui-layer__foot">
+            <div class="ui-buttons">
+              <ul class="ui-buttons__list">
+                <li class="ui-buttons__item">
+                  <button type="button" class="ui-button ui-basic-button ui-basic-button--tertiary" data-role="layerClose">취소</button>
+                </li>
+                <li class="ui-buttons__item">
+                  <!-- 2020.12.11 : mod : type 속성 변경 -->
+                  <button type="button" class="ui-button ui-basic-button">확인</button>
+                  <!-- //2020.12.11 : mod : type 속성 변경 -->
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- 2020.12.11 : del : form 태그 제거
+          </form>
+          -->
+        </section>
+      </div>
+    </div>
+    <!-- //layer: 판매 동의 확인 -->
+
+    <!-- script -->
+    <script type="text/javascript" src="../assets/js/polyfills.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="../assets/js/simplebar.min.js"></script>
+    <script type="text/javascript" src="../assets/js/swiper.min.js"></script>
+    <script type="text/javascript" src="../assets/js/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="../assets/js/apexcharts.min.js"></script>
+    <script type="text/javascript" src="../assets/js/ui-script.js"></script>
+    <script type="text/javascript">
+      // 퍼블리셔 테스트 소스 입니다. 운영엔 반영하지 말아주세요.
+      $(function () {
+        uiJSLayer.open('layer-pick-up-sell-agree');
+      });
+    </script>
+    <!-- //script -->
+  </body>
+</html>

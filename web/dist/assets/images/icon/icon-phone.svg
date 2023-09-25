@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="ic_myphone" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <clipPath id="clip">
+            <use xlink:href="#fill"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:none}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <path id="Rectangle_5715" d="M0 0H24V24H0z" class="cls-1"/>
+    <path id="Rectangle_5716" d="M0 0H18V18H0z" class="cls-1" transform="translate(3 3)"/>
+    <g id="Rectangle_5729" fill="none" stroke="#0f0f0f" transform="translate(4 1)">
+        <rect width="16" height="22" class="cls-4" rx="3"/>
+        <rect width="15" height="21" x=".5" y=".5" class="cls-1" rx="2.5"/>
+    </g>
+    <g id="Rectangle_5949" fill="none" stroke="#0f0f0f" stroke-width="1.5px" transform="translate(10 19)">
+        <rect id="fill" width="4" height="1" class="cls-4" rx=".5"/>
+        <path d="M0 .25h4M3.25 0v1M4 .75H0M.75 1V0" clip-path="url(#clip)"/>
+    </g>
+</svg>

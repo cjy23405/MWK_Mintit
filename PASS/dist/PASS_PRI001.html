@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>Mintit PASS</title>
+
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- 2021.05.20 : mod : 뷰포트 값 변경 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <!-- //2021.05.20 : mod : 뷰포트 값 변경 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- style -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/common.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/ui-style.css" />
+    <!-- //style -->
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="layout-wrap">
+        <div class="header-wrap">
+          <header class="header">
+            <h1 class="header__title">PASS 휴대폰</h1>
+            <div class="header__left">
+              <button type="button" class="ui-button header__button header__button--back">
+                <span class="for-a11y">뒤로</span>
+              </button>
+            </div>
+          </header>
+        </div>
+
+        <div class="contents-wrap contents-wrap--market-price">
+          <section class="contents">
+            <div class="primary-tab">
+              <ul class="primary-tab__list">
+                <li class="primary-tab__item">
+                  <a href="" class="primary-tab__button is-active">
+                    <span class="primary-tab__text">시세조회</span>
+                  </a>
+                </li>
+                <li class="primary-tab__item">
+                  <a href="" class="primary-tab__button">
+                    <span class="primary-tab__text">ATM소개</span>
+                  </a>
+                </li>
+                <li class="primary-tab__item">
+                  <a href="" class="primary-tab__button">
+                    <span class="primary-tab__text">내폰팔기</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <h2 class="for-a11y">시세조회</h2>
+
+            <div class="market-price-head">
+              <p class="market-price-head__title">
+                <span class="market-price-head__title-text">내 폰 모델정보</span>
+                <a href="" class="market-price-head__title-name" title="내 폰 선택">아이폰 11 PRO MAX 64G</a>
+              </p>
+              <a href="" class="market-price-head__add">휴대폰 추가</a>
+              <div class="market-price-head__ratings-standards">
+                <a href="" class="basic-link">등급기준확인</a>
+              </div>
+            </div>
+
+            <div class="market-price-chart">
+              <div class="market-price-chart__chart-area">
+                <!-- DD : data-value 값은 할푼리 값 0~1 -->
+                <!-- DD : 동적으로 데이터 뿌려 줄 시 이 영역을 아에 다시 뿌려 준 후 uiJSCommon(); 호출 -->
+                <div class="ui-pie-chart" data-value="0.845"></div>
+                <!-- //DD : 동적으로 데이터 뿌려 줄 시 이 영역을 아에 다시 뿌려 준 후 uiJSCommon(); 호출 -->
+              </div>
+              <div class="market-price-chart__info">
+                <p class="market-price-chart__price">
+                  <span class="market-price-chart__price-num">452,000</span>
+                  <span class="market-price-chart__price-text">원</span>
+                </p>
+                <p class="market-price-chart__text">민팃 최대 매입가격</p>
+              </div>
+            </div>
+
+            <div class="rating-price">
+              <ul class="rating-price__list">
+                <li class="rating-price__item">
+                  <div class="rating-price__key">S등급</div>
+                  <div class="rating-price__val">452,000원</div>
+                </li>
+                <li class="rating-price__item">
+                  <div class="rating-price__key">A등급</div>
+                  <div class="rating-price__val">371,000원</div>
+                </li>
+                <li class="rating-price__item">
+                  <div class="rating-price__key">B등급</div>
+                  <div class="rating-price__val">324,000원</div>
+                </li>
+                <li class="rating-price__item">
+                  <div class="rating-price__key">C등급</div>
+                  <div class="rating-price__val">295,000원</div>
+                </li>
+                <li class="rating-price__item">
+                  <div class="rating-price__key">D등급</div>
+                  <div class="rating-price__val">125,000원</div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="price-info">
+              <dl class="price-info__item">
+                <dt class="price-info__key">출시가</dt>
+                <dd class="price-info__val">450,000원</dd>
+              </dl>
+              <dl class="price-info__item">
+                <dt class="price-info__key">출시가 대비 하락율</dt>
+                <dd class="price-info__val">
+                  <span class="rate-of-change rate-of-change--down">57.16%</span>
+                </dd>
+              </dl>
+            </div>
+
+            <!-- 2021.04.14 : add : 배너 추가 -->
+            <!-- DD : 동적으로 데이터 뿌려 줄 시 이 영역을 아에 다시 뿌려 준 후 uiJSCommon(); 호출 -->
+            <div class="contents-banner">
+              <ul class="contents-banner__list">
+                <!-- 2021.06.29 : add : 배너 추가 -->
+                <li class="contents-banner__item">
+                  <!-- DD : 민팃 웹의 [월간 민팃폰] 이벤트 페이지로 링크 -->
+                  <a href="" class="contents-banner__link">
+                    <img src="./assets/images/banner/market-price-banner-4.jpg" alt="" class="contents-banner__img" />
+                  </a>
+                </li>
+                <!-- //2021.06.29 : add : 배너 추가 -->
+
+                <!-- 2021.06.29 : mod : 배너 순서 변경(이미지 변경 됨) -->
+                <li class="contents-banner__item">
+                  <!-- DD : 민팃 웹의 [월간 민팃 리뷰왕] 이벤트 페이지로 링크 -->
+                  <a href="" class="contents-banner__link">
+                    <img src="./assets/images/banner/market-price-banner-3.jpg" alt="" class="contents-banner__img" />
+                  </a>
+                </li>
+                <!-- //2021.06.29 : mod : 배너 순서 변경(이미지 변경 됨) -->
+
+                <!-- 2021.05.26 : mod : 오픈시 반영 될 배너 적용 -->
+                <li class="contents-banner__item">
+                  <a href="" class="contents-banner__link">
+                    <img src="./assets/images/banner/market-price-banner-1.jpg" alt="" class="contents-banner__img" />
+                  </a>
+                </li>
+                <li class="contents-banner__item">
+                  <a href="" class="contents-banner__link">
+                    <img src="./assets/images/banner/market-price-banner-2.jpg" alt="" class="contents-banner__img" />
+                  </a>
+                </li>
+                <!-- //2021.05.26 : mod : 오픈시 반영 될 배너 적용 -->
+              </ul>
+            </div>
+            <!-- //DD : 동적으로 데이터 뿌려 줄 시 이 영역을 아에 다시 뿌려 준 후 uiJSCommon(); 호출 -->
+            <!-- //2021.04.14 : add : 배너 추가 -->
+
+            <section class="primary-section">
+              <div class="primary-section__head">
+                <h3 class="primary-section__title">
+                  예측 시세
+                  <!-- 2021.04.19 : add : 문구 추가 -->
+                  <span class="primary-section__title__small">(S등급 가정)</span>
+                  <!-- //2021.04.19 : add : 문구 추가 -->
+                </h3>
+              </div>
+
+              <div class="chart-area" id="chart"></div>
+
+              <div class="rating-price">
+                <ul class="rating-price__list">
+                  <li class="rating-price__item">
+                    <div class="rating-price__key">4주 후</div>
+                    <div class="rating-price__val">295,000원</div>
+                  </li>
+                  <li class="rating-price__item">
+                    <div class="rating-price__key">8주 후</div>
+                    <div class="rating-price__val">175,000원</div>
+                  </li>
+                  <li class="rating-price__item">
+                    <div class="rating-price__key">12주 후</div>
+                    <div class="rating-price__val">125,000원</div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="delete-phone">
+                <a href="" class="delete-phone__link">휴대폰 삭제</a>
+              </div>
+            </section>
+
+            <div class="ui-buttons ui-buttons--full">
+              <ul class="ui-buttons__list">
+                <li class="ui-buttons__item">
+                  <a href="" class="ui-basic-button">내 폰 판매하기</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <footer class="footer">
+            <h1 class="footer-logo">
+              <span class="for-a11y">PASS 휴대폰</span>
+            </h1>
+            <ul class="footer__nav">
+              <li class="footer__nav-item">
+                <a href="" class="footer__nav-link">서비스이용약관</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="" class="footer__nav-link">개인정보수집및이용</a>
+              </li>
+            </ul>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./assets/js/apexcharts.min.js"></script>
+    <script type="text/javascript" src="./assets/js/swiper.min.js"></script>
+    <script type="text/javascript" src="./assets/js/ui-script.js"></script>
+    <script type="text/javascript">
+      // chart
+      // https://apexcharts.com/
+      var options = {
+        series: [
+          {
+            data: [1530000, 1230000, 1105000, 910000], // 2021.06.18 : mod : 현재가 추가
+          },
+        ],
+        chart: {
+          height: 180,
+          type: 'area', // 2021.06.02 : mod : type 값 변경
+          fontFamily: '"Noto Sans Korean", "맑은고딕", "Malgun Gothic", "돋움", Dotum, "Apple Gothic", sans-serif',
+          toolbar: {
+            show: false,
+          },
+          zoom: {
+            enabled: false,
+          },
+        },
+        colors: ['#2bd3c6'],
+        dataLabels: {
+          enabled: true,
+          style: {
+            fontSize: '12px',
+            fontWeight: '400',
+            colors: ['#a7a7a7'],
+          },
+          formatter: function (val, opts) {
+            return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+          },
+          offsetY: -8,
+          background: {
+            enabled: false,
+          },
+        },
+        markers: {
+          size: 5,
+          strokeWidth: 0,
+          colors: '#a0dcd8',
+        },
+        stroke: {
+          curve: 'straight',
+          width: 3,
+        },
+        tooltip: {
+          enabled: false,
+        },
+        // <!-- 2021.06.02 : mod : grid, xaxis, yaxis 값 추가 및 변경 -->
+        grid: {
+          borderColor: '#ededed',
+          xaxis: {
+            lines: {
+              show: true,
+            },
+          },
+          yaxis: {
+            lines: {
+              show: true,
+            },
+          },
+          padding: {
+            top: -20,
+            right: 1,
+            bottom: -15,
+            left: -5,
+          },
+        },
+        xaxis: {
+          categories: ['현재', '4주 후', '8주 후', '12주 후'], // 2021.06.18 : mod : 현재가 추가
+          labels: {
+            style: {
+              colors: '#a7a7a7',
+            },
+          },
+          tickPlacement: 'between',
+          axisBorder: {
+            color: '#d3d3d3',
+          },
+          axisTicks: {
+            show: true,
+            color: '#d3d3d3',
+            height: 6,
+          },
+        },
+        yaxis: {
+          labels: {
+            style: {
+              colors: '#a7a7a7',
+            },
+            offsetX: -15,
+            offsetY: 2,
+            formatter: (val) => {
+              return Math.round(val)
+                .toString()
+                .replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+            },
+          },
+          min: 0,
+          max: function (max) {
+            // 2021.06.18 : del : 불필요한 console 소스 제거
+            // console.log(max + max * 0.25);
+            return max + max * 0.25;
+          },
+          tickAmount: 5,
+          axisBorder: {
+            show: true,
+            color: '#d3d3d3',
+            offsetX: -3,
+          },
+          axisTicks: {
+            show: true,
+            color: '#d3d3d3',
+            width: 6,
+            offsetX: 2.5,
+            offsetY: -2,
+          },
+        },
+        // <!-- //2021.06.02 : mod : grid, xaxis, yaxis 값 추가 및 변경 -->
+      };
+
+      var chart = new ApexCharts(document.querySelector('#chart'), options);
+
+      $(window).on('load', function () {
+        chart.render();
+      });
+    </script>
+    <!-- //script -->
+  </body>
+</html>

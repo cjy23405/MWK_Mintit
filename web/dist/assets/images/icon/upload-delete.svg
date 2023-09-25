@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="ic_photo_delete" transform="translate(-910 -1435)">
+        <path id="사각형_7325" fill="none" d="M0 0H30V30H0z" transform="translate(910 1435)"/>
+        <path id="사각형_7323" d="M0 0H16V1.5H0z" class="cls-2" transform="rotate(45 -1283.032 1832.612)"/>
+        <path id="사각형_7324" d="M0 0H1.5V16H0z" class="cls-2" transform="rotate(45 -1277.905 1844.988)"/>
+    </g>
+</svg>

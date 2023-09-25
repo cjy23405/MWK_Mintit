@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="ic_pin_homeplus" transform="translate(.474 -.032)">
+        <path id="Rectangle_8539" fill="none" d="M0 0H40V40H0z" transform="translate(-.474 .032)"/>
+        <path id="Path_8845" fill="#dc0019" d="M83.067 0a12.6 12.6 0 0 0-12.494 12.669c0 8.67 11.181 21.4 11.657 21.935a1.115 1.115 0 0 0 1.674 0c.476-.538 11.657-13.265 11.657-21.935A12.6 12.6 0 0 0 83.067 0z" transform="translate(-63.077 2.499)"/>
+        <g id="Group_4586" transform="translate(12.494 8.746)">
+            <g id="Group_4585">
+                <g id="Group_4584">
+                    <g id="Group_4583">
+                        <path id="Path_8869" d="M279.815 485.683v7.5a3.747 3.747 0 0 1-7.495 0v-7.5a3.747 3.747 0 1 1 7.495 0zm-6.463 7.5a2.716 2.716 0 0 0 5.432 0v-7.5a2.716 2.716 0 0 0-5.432 0z" class="cls-3" transform="translate(-268.571 -481.936)"/>
+                        <path id="Path_8870" d="M255 517.994h-7.5a3.747 3.747 0 0 1 0-7.495h7.5a3.747 3.747 0 1 1 0 7.495zm-7.5-6.463a2.716 2.716 0 0 0 0 5.432h7.5a2.716 2.716 0 0 0 0-5.432z" class="cls-3" transform="translate(-243.756 -506.75)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

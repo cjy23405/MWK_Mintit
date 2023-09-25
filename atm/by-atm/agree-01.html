@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>민팃</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- favicon -->
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+    <!-- //favicon -->
+
+    <!-- style -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/common.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/ui-style.css" />
+    <!-- //style -->
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="layout-wrap">
+        <div class="header">
+          <h1 class="header__title">보험 계약 체결을 위한 청약서 및 각종 약관 동의</h1>
+          <a href="" class="header__back">
+            <span class="for-a11y">뒤로가기</span>
+          </a>
+        </div>
+        <div class="contents contents--agree">
+          <h2 class="contents-title">보험계약 청약서</h2>
+
+          <div class="info-table">
+            <table>
+              <colgroup>
+                <col style="width: 70px" />
+                <col style="width: 80px" />
+                <col />
+              </colgroup>
+              <tbody>
+                <tr>
+                  <th colspan="2">보험 상품명</th>
+                  <td>민팃</td>
+                </tr>
+                <tr>
+                  <th colspan="2">보험사</th>
+                  <td>삼성화재보험주식회사</td>
+                </tr>
+                <tr>
+                  <th colspan="2">보험료(년)</th>
+                  <td>**,***원 (일시납)</td>
+                </tr>
+                <tr>
+                  <th rowspan="2">
+                    보험가입<br />
+                    단말기
+                  </th>
+                  <th>모델명</th>
+                  <td>*********</td>
+                </tr>
+                <tr>
+                  <th>IMEI번호</th>
+                  <td>**************** (15자리)</td>
+                </tr>
+                <tr>
+                  <th colspan="2">보험 기간</th>
+                  <td>
+                    ‘**년 **월 **일 0시<br />
+                    ~ ‘**년 **월 **일 23시 59분
+                  </td>
+                </tr>
+                <tr>
+                  <th rowspan="2">보장 조건</th>
+                  <th>파손담보 2회</th>
+                  <td>1회당 보상한도 25만원</td>
+                </tr>
+                <tr>
+                  <th>자기부담(율)</th>
+                  <td>
+                    1회당 수리비의 30%<br />
+                    (타보험 중복시 자기부담금의 30%)
+                  </td>
+                </tr>
+                <tr>
+                  <th rowspan="3">피보험자</th>
+                  <th>성명</th>
+                  <td>* * * * * (최대 10자리)</td>
+                </tr>
+                <tr>
+                  <th>생년월일</th>
+                  <td>****년 **월 **일</td>
+                </tr>
+                <tr>
+                  <th>연락처</th>
+                  <td>010-****-****</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="info-text">(단말기 제조사의 정식수리센터 수리만 해당됩니다.)</p>
+          <ul class="terms-hyphen-list terms-hyphen-list--medium">
+            <li class="terms-hyphen-list__item">타보험 상품 중복 가입 시, 본 보험은 타보험 선보상 처리 후 발생한 고객의 자기부담금만 보상 한도내에서 보상됩니다.(보상 1회차 실시 적용)</li>
+            <li class="terms-hyphen-list__item">
+              완전파손사고로 수리 불가시, AS센터의 수리불가 확인서 제출 및 파손단말기 반납 조건으로 1회 보상 한도내 보상이 되며, 보상 후 보험계약은 자동 해지됩니다.
+            </li>
+            <li class="terms-hyphen-list__item">보험단보는 단말기 본체에 한답니다. (펜, 이어폰, 충전기, 보호필름 등 액세서리는 제외됩니다.)</li>
+          </ul>
+          <a href="" class="pdf-download">상품 설명서 자세히 보기</a>
+          <form action="">
+            <div class="agree-row">
+              <div class="ui-checkbox-block">
+                <input type="checkbox" class="ui-checkbox" id="agree1" />
+                <label for="agree1" class="ui-label">
+                  <span class="ui-checkbox-object"></span>
+                  <span class="ui-label__text">상품설명서를 확인하였음.</span>
+                </label>
+              </div>
+            </div>
+            <div class="agree-row">
+              <div class="ui-checkbox-block">
+                <input type="checkbox" class="ui-checkbox" id="agree2" />
+                <label for="agree2" class="ui-label">
+                  <span class="ui-checkbox-object"></span>
+                  <span class="ui-label__text">보험계약 가입을 동의합니다.</span>
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="ui-button ui-basic-button">다음</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

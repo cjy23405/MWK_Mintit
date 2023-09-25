@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>Mintit PASS</title>
+
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- 2021.05.20 : mod : 뷰포트 값 변경 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <!-- //2021.05.20 : mod : 뷰포트 값 변경 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- style -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/common.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/ui-style.css" />
+    <!-- //style -->
+  </head>
+  <body>
+    <a href="" data-layer-open="layer-ratings-standards">등급 기준 확인</a>
+
+    <!-- layer: 등급 기준 확인 -->
+    <div class="layer-wrap layer-wrap--full layer-ratings-standards" data-layer="layer-ratings-standards">
+      <div class="layer-container">
+        <section class="ui-layer">
+          <div class="ui-layer__head">
+            <div class="header">
+              <h2 class="for-a11y">등급 기준 확인</h2>
+              <div class="header__right">
+                <button type="button" class="ui-button header__button header__button--close" data-role="layerClose">
+                  <span class="for-a11y">닫기</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="ui-layer__body">
+            <div class="ui-layer__body-inner">
+              <div class="page-head">
+                <p class="page-head__title">
+                  내 폰의 등급 기준을<br />
+                  확인해보세요.
+                </p>
+              </div>
+
+              <div class="js-ui-tab-panel">
+                <div class="primary-tab">
+                  <ul class="primary-tab__list">
+                    <li class="primary-tab__item">
+                      <a href="" class="primary-tab__button" data-tab-open="layer-ratings-standards-iphone">
+                        <span class="primary-tab__text">아이폰</span>
+                      </a>
+                    </li>
+                    <li class="primary-tab__item">
+                      <a href="" class="primary-tab__button" data-tab-open="layer-ratings-standards-android">
+                        <span class="primary-tab__text">삼성 및 기타 휴대폰</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div data-tab="layer-ratings-standards-iphone">
+                  <div class="js-ui-tab-panel">
+                    <div class="secondary-tab">
+                      <ul class="secondary-tab__list">
+                        <li class="secondary-tab__item">
+                          <a href="" class="secondary-tab__button" data-tab-open="layer-ratings-standards-iphone-s">
+                            <span class="secondary-tab__text">S등급</span>
+                          </a>
+                        </li>
+                        <li class="secondary-tab__item">
+                          <a href="" class="secondary-tab__button" data-tab-open="layer-ratings-standards-iphone-a">
+                            <span class="secondary-tab__text">A등급</span>
+                          </a>
+                        </li>
+                        <li class="secondary-tab__item">
+                          <a href="" class="secondary-tab__button" data-tab-open="layer-ratings-standards-iphone-b">
+                            <span class="secondary-tab__text">B등급</span>
+                          </a>
+                        </li>
+                        <li class="secondary-tab__item">
+                          <a href="" class="secondary-tab__button" data-tab-open="layer-ratings-standards-iphone-c">
+                            <span class="secondary-tab__text">C등급</span>
+                          </a>
+                        </li>
+                        <li class="secondary-tab__item">
+                          <a href="" class="secondary-tab__button" data-tab-open="layer-ratings-standards-iphone-d">
+                            <span class="secondary-tab__text">D등급</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="ratings-standards" data-tab="layer-ratings-standards-iphone-s">
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">액정</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">뒷판(측면)</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">잔상</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">지문/FACE ID</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">나침반</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">LCD</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">음성 녹음</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">카메라</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">와이파이</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">전원</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                    </div>
+
+                    <div class="ratings-standards" data-tab="layer-ratings-standards-iphone-a">
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">액정</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">미세한 기스</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">뒷판(측면)</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">미세한 기스</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">잔상</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">지문/FACE ID</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">나침반</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">LCD</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">음성 녹음</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">카메라</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">와이파이</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">전원</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                    </div>
+
+                    <div class="ratings-standards" data-tab="layer-ratings-standards-iphone-b">
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">액정</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">기스</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">뒷판(측면)</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">기스,찍힘,파손</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">잔상</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">약잔상~중잔상</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">지문/FACE ID</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">나침반</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">LCD</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">백화 1-2개</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">음성 녹음</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">녹음 어플 장애</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">카메라</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">카메라멍 1-2개</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">와이파이</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">전원</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                    </div>
+
+                    <div class="ratings-standards" data-tab="layer-ratings-standards-iphone-c">
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">액정</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">액정 파손</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">뒷판(측면)</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">뒷판파손</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">잔상</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">강잔상 ~ 백화</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">지문/FACE ID</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">홈버튼 오류</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">나침반</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">나침반 장애(GPS)</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">LCD</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">백화 2개 이상</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">음성 녹음</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">녹음 어플 장애</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">카메라</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">카메라불량</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">와이파이</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">인식 불가</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">전원</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                    </div>
+
+                    <div class="ratings-standards" data-tab="layer-ratings-standards-iphone-d">
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">액정</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">액정 파손</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">뒷판(측면)</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">베젤 휨</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">잔상</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">LCD급잔상 ~ LCD파손</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">지문/FACE ID</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">인식 불가</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">나침반</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">나침반 장애(GPS)</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">LCD</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">백화 2개 이상</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">음성 녹음</dt>
+                        <dd class="ratings-standards__val">-</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">카메라</dt>
+                        <dd class="ratings-standards__val">-</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">와이파이</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">인식 불가</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">전원</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">전원 불능</span></dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+
+                <div data-tab="layer-ratings-standards-android">
+                  <div class="js-ui-tab-panel">
+                    <div class="secondary-tab">
+                      <ul class="secondary-tab__list">
+                        <li class="secondary-tab__item">
+                          <a href="" class="secondary-tab__button" data-tab-open="layer-ratings-standards-android-s">
+                            <span class="secondary-tab__text">S등급</span>
+                          </a>
+                        </li>
+                        <li class="secondary-tab__item">
+                          <a href="" class="secondary-tab__button" data-tab-open="layer-ratings-standards-android-a">
+                            <span class="secondary-tab__text">A등급</span>
+                          </a>
+                        </li>
+                        <li class="secondary-tab__item">
+                          <a href="" class="secondary-tab__button" data-tab-open="layer-ratings-standards-android-b">
+                            <span class="secondary-tab__text">B등급</span>
+                          </a>
+                        </li>
+                        <li class="secondary-tab__item">
+                          <a href="" class="secondary-tab__button" data-tab-open="layer-ratings-standards-android-c">
+                            <span class="secondary-tab__text">C등급</span>
+                          </a>
+                        </li>
+                        <li class="secondary-tab__item">
+                          <a href="" class="secondary-tab__button" data-tab-open="layer-ratings-standards-android-d">
+                            <span class="secondary-tab__text">D등급</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="ratings-standards" data-tab="layer-ratings-standards-android-s">
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">액정</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">뒷판(측면)</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">잔상</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">LCD</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">전원</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">옵션</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                    </div>
+
+                    <div class="ratings-standards" data-tab="layer-ratings-standards-android-a">
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">액정</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">미세한 기스</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">뒷판(측면)</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">미세한 기스</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">잔상</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">LCD</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">전원</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">옵션</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                    </div>
+
+                    <div class="ratings-standards" data-tab="layer-ratings-standards-android-b">
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">액정</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">기스</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">뒷판(측면)</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">기스,찍힘,뒷판파손</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">잔상</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">약잔상~중잔상</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">LCD</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">전원</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">옵션</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">노트펜 분실</span></dd>
+                      </dl>
+                    </div>
+
+                    <div class="ratings-standards" data-tab="layer-ratings-standards-android-c">
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">액정</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">액정 파손/홈버튼 까짐</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">뒷판(측면)</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">뒷판파손</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">잔상</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">강잔상 ~ 백화</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">LCD</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">LCD홍조</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">전원</dt>
+                        <dd class="ratings-standards__val">정상</dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">옵션</dt>
+                        <dd class="ratings-standards__val">-</dd>
+                      </dl>
+                    </div>
+
+                    <div class="ratings-standards" data-tab="layer-ratings-standards-android-d">
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">액정</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">LCD불량</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">뒷판(측면)</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">베젤 휨</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">잔상</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">LCD급잔상 ~ LCD파손</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">LCD</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">LCD홍조, 흑점</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">전원</dt>
+                        <dd class="ratings-standards__val"><span class="color-red">전원 불능</span></dd>
+                      </dl>
+                      <dl class="ratings-standards__item">
+                        <dt class="ratings-standards__key">옵션</dt>
+                        <dd class="ratings-standards__val">-</dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ui-layer__foot">
+            <div class="ui-buttons ui-buttons--full">
+              <ul class="ui-buttons__list">
+                <li class="ui-buttons__item">
+                  <button type="button" class="ui-button ui-basic-button" data-role="layerClose">확인</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- //layer: 등급 기준 확인 -->
+
+    <!-- script -->
+    <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./assets/js/apexcharts.min.js"></script>
+    <script type="text/javascript" src="./assets/js/swiper.min.js"></script>
+    <script type="text/javascript" src="./assets/js/ui-script.js"></script>
+    <script type="text/javascript">
+      // 퍼블리셔 테스트 소스 입니다. 운영엔 반영하지 말아주세요.
+      $(function () {
+        uiJSLayer.open('layer-ratings-standards');
+      });
+    </script>
+    <!-- //script -->
+  </body>
+</html>

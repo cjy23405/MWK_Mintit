@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="add" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_10806" fill="none" d="M0 0H16V16H0z" transform="translate(1060 392)"/>
+        </clipPath>
+        <style>
+            .cls-3{fill:none;stroke:#fff;stroke-linecap:round;stroke-miterlimit:10;stroke-width:1.3px}
+        </style>
+    </defs>
+    <g id="add-2" clip-path="url(#clip-path)" transform="translate(-1060 -392)">
+        <path id="선_124" d="M0 0L11 0" class="cls-3" transform="translate(1062.5 400)"/>
+        <path id="선_125" d="M0 11L0 0" class="cls-3" transform="translate(1068 394.5)"/>
+    </g>
+</svg>

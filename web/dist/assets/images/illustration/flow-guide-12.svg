@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <style>
+            .cls-1{fill:none;opacity:.2}.cls-4{fill:#3e79e8}
+        </style>
+    </defs>
+    <g id="ic_carrot_step_02" transform="translate(-30 -374.998)">
+        <path id="사각형_8570" d="M0 0H80V80H0z" class="cls-1" transform="translate(30 374.998)"/>
+        <path id="패스_9837" d="M0 0h64.274v64.274H0z" class="cls-1" transform="translate(38.034 383.034)"/>
+        <path id="패스_9836" fill="#afc1da" d="M6.427 0h25.71a6.427 6.427 0 0 1 6.427 6.427v54.634H0V6.427A6.427 6.427 0 0 1 6.427 0z" transform="translate(49.282 384.641)"/>
+        <path id="패스_9835" fill="#edf1f7" d="M1.607 0H24.1a1.607 1.607 0 0 1 1.61 1.607v35.351a1.607 1.607 0 0 1-1.61 1.607H1.607A1.607 1.607 0 0 1 0 36.958V1.607A1.607 1.607 0 0 1 1.607 0z" transform="translate(55.71 392.675)"/>
+        <path id="패스_4086" d="M-4248.094 1830.6a1.207 1.207 0 0 1-.917-.419l-5.81-6.727a1.211 1.211 0 0 1 .125-1.706 1.207 1.207 0 0 1 1.705.125l5.811 6.727a1.21 1.21 0 0 1-.124 1.706 1.205 1.205 0 0 1-.79.294z" class="cls-4" transform="translate(4343.765 -1382.981)"/>
+        <path id="패스_9834" d="M11.248 0A11.248 11.248 0 1 1 0 11.248 11.248 11.248 0 0 1 11.248 0z" class="cls-4" transform="translate(73.385 421.599)"/>
+        <path id="패스_9833" fill="#fff" d="M8.838 0A8.838 8.838 0 1 1 0 8.838 8.838 8.838 0 0 1 8.838 0z" transform="translate(75.795 424.009)"/>
+        <path id="패스_8923" fill="none" stroke="#2bd3c6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6px" d="M63.525 414.464l3.155 3.1 4.88-4.821" transform="translate(17.09 18.092)"/>
+    </g>
+</svg>

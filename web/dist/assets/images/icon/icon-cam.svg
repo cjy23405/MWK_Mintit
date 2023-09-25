@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+    <defs>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <g id="ic_camera" transform="translate(-868 -1376)">
+        <path id="사각형_7321" d="M0 0H54V54H0z" class="cls-1" transform="translate(868 1376)"/>
+        <path id="합치기_81" fill="#dfdfdf" d="M6 37.5a6 6 0 0 1-6-6v-20a6 6 0 0 1 6-6h3.95a1.5 1.5 0 0 0 1.293-.992c1.326-5.141 2.531-5 5.141-5h9.231c2.609 0 3.814-.139 5.139 5a1.5 1.5 0 0 0 1.3 1V5.5H36a6 6 0 0 1 6 6v20a6 6 0 0 1-6 6z" transform="translate(874 1384.497)"/>
+        <g id="타원_657" fill="none" stroke="#fff" stroke-width="2px" transform="translate(885 1396)">
+            <circle cx="10" cy="10" r="10" stroke="none"/>
+            <circle cx="10" cy="10" r="9" class="cls-1"/>
+        </g>
+        <circle id="타원_658" cx="1.5" cy="1.5" r="1.5" fill="#fff" transform="translate(908.5 1395)"/>
+    </g>
+</svg>

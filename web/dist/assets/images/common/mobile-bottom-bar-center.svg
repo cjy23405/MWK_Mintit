@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="60" viewBox="0 0 132 60">
+    <defs>
+        <style>
+            .cls-1{fill:#f8f8f8}
+        </style>
+    </defs>
+    <g id="bottom_bar_center" transform="translate(-114 -590)">
+        <path id="사각형_878" d="M0 0h3a33 33 0 0 1 33 33v27H0V0z" class="cls-1" transform="translate(114 590)"/>
+        <path id="사각형_884" d="M33 0h3v60H0V33A33 33 0 0 1 33 0z" class="cls-1" transform="translate(210 590)"/>
+        <path id="빼기_6" d="M75 52H3V11h2.822v.014a35.874 35.874 0 0 0 7.716 11.443 35.856 35.856 0 0 0 11.443 7.715A35.776 35.776 0 0 0 39 33a35.776 35.776 0 0 0 14.013-2.83 35.869 35.869 0 0 0 11.443-7.715 35.856 35.856 0 0 0 7.715-11.443V10.999H75z" class="cls-1" transform="translate(141.001 598)"/>
+    </g>
+</svg>

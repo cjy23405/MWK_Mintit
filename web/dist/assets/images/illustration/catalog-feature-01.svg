@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="패스_9890" d="M1 0h30.84a1 1 0 0 1 1 1v53.309a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#eef2f8}.cls-6{fill:#707070}
+        </style>
+    </defs>
+    <g id="ic_insurance_1" transform="translate(-29.679 -184.359)">
+        <path id="사각형_8579" fill="none" d="M0 0H100V100H0z" transform="translate(29.679 184.359)"/>
+        <path id="패스_8828" fill="#ee7674" d="M6.821 9.427L0 15.64h12.736l3.307 5.609 5.078-5.049 10.329 4.11-2.785-7.727L38.5 9.925l-9.435-3.908V0l-9.443 4.945-15.917-.588z" transform="translate(60.185 255.641)"/>
+        <g id="그룹_4558" transform="rotate(30 -317.765 246.139)">
+            <path id="패스_9889" fill="#afc2dc" d="M4 0h30.025a4 4 0 0 1 4 4v61.136a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z"/>
+            <path id="패스_9888" d="M1 0h30.84a1 1 0 0 1 1 1v53.309a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1z" class="cls-1" transform="translate(2.593 7.662)"/>
+            <g id="마스크_그룹_76" clip-path="url(#clip-path)" transform="translate(2.593 7.662)">
+                <path id="패스_8829" d="M3.855 0L1.7 13.928l3.572 6.045-3.147 11.6 1.731-11.6L0 13.928 1.7 0z" class="cls-6" transform="rotate(-18.01 -.888 2.72)"/>
+                <path id="패스_8830" d="M3.779 29.642l-2.08-12L5.271 11.6 2.124 0l1.731 11.6L0 17.646l1.57 13.5s.736.52 1.295.148a3.7 3.7 0 0 0 .914-1.652z" class="cls-6" transform="rotate(-34 57.344 -6.936)"/>
+                <path id="패스_8831" d="M0 17.418L2.728 12.3 0 0l3.736 12.3-2.92 6.243z" class="cls-6" transform="rotate(-11 103.944 -87.167)"/>
+            </g>
+        </g>
+    </g>
+</svg>

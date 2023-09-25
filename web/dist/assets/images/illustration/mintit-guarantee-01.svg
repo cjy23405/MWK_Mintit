@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80.002" height="80.002" viewBox="0 0 80.002 80.002">
+    <defs>
+        <style>
+            .cls-4{fill:#3e79e8}
+        </style>
+    </defs>
+    <g id="ic_mintitcare_detail_1" transform="translate(-228.496 -1091.564)">
+        <path id="패스_9337" fill="none" d="M0 0h80v80H0z" transform="translate(228.496 1091.564)"/>
+        <path id="패스_9336" fill="#afc1da" d="M0 0h54v54H0z" transform="translate(241.496 1104.565)"/>
+        <path id="패스_9335" fill="#edf1f7" d="M0 0h12v14H0z" transform="translate(262.496 1104.564)"/>
+        <path id="패스_9334" d="M16 0A16 16 0 1 1 0 16 16 16 0 0 1 16 0z" class="cls-4" transform="translate(271.496 1134.564)"/>
+        <g id="패스_9333" fill="none" stroke="none">
+            <path d="M7.273 0h5.455A7.14 7.14 0 0 1 20 7a7.14 7.14 0 0 1-7.273 7H7.273A7.14 7.14 0 0 1 0 7a7.14 7.14 0 0 1 7.273-7z" transform="translate(278.496 1144.564)"/>
+            <path fill="#fff" d="M7.273 3C4.917 3 3 4.794 3 7s1.917 4 4.273 4h5.454C15.083 11 17 9.206 17 7s-1.917-4-4.273-4H7.273m0-3h5.454C16.744 0 20 3.134 20 7s-3.256 7-7.273 7H7.273C3.256 14 0 10.866 0 7s3.256-7 7.273-7z" transform="translate(278.496 1144.564)"/>
+        </g>
+        <path id="패스_9328" d="M5.567-1.061L12.265.8l-6.52 13.862-9.028.144z" class="cls-4" transform="translate(290.389 1145.291)"/>
+        <path id="패스_9325" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px" d="M0 0l3.5 3.5L0 7" transform="translate(290.496 1142.564)"/>
+        <path id="패스_9379" fill="#fff" d="M1.5 0h5a1.5 1.5 0 0 1 0 3h-5a1.5 1.5 0 0 1 0-3z" transform="translate(285.496 1155.564)"/>
+    </g>
+</svg>

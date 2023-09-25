@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_12544" fill="none" d="M0 0H24V24H0z" transform="translate(1671 472)"/>
+        </clipPath>
+        <style>
+            .cls-4{fill:none;stroke:#fff;stroke-linecap:round;stroke-miterlimit:10;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="btn_search_delete" transform="translate(-208 -224)">
+        <circle id="타원_1286" cx="9" cy="9" r="9" fill="#d3d3d3" transform="translate(211 227)"/>
+        <g id="그룹_10904" clip-path="url(#clip-path)" transform="translate(-1463 -248)">
+            <path id="선_130" d="M0 0L6 6" class="cls-4" transform="translate(1680 481)"/>
+            <path id="선_131" d="M6 0L0 6" class="cls-4" transform="translate(1680 481)"/>
+        </g>
+    </g>
+</svg>

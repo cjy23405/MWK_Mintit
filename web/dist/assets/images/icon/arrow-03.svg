@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="arrow-03" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="패스_9383" d="M3.5 10h12a.5.5 0 0 1 .5.5.5.5 0 0 1-.5.5h-12a.5.5 0 0 1-.5-.5.5.5 0 0 1 .5-.5z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <path id="패스_9380" d="M0 0h20v20H0z" class="cls-1"/>
+    <g id="그룹_4875">
+        <g id="그룹_4874">
+            <g id="그룹_4873" clip-path="url(#clip-path)">
+                <path id="패스_9382" fill="none" stroke="#6a7373" stroke-width="1.5px" d="M3 10.25h13m-.75-.25v1m.75-.25H3m.75.25v-1"/>
+            </g>
+        </g>
+        <path id="패스_9381" fill="none" stroke="#6a7373" stroke-linecap="round" stroke-linejoin="round" d="M12 6l4 4.5-4 4.5"/>
+    </g>
+</svg>

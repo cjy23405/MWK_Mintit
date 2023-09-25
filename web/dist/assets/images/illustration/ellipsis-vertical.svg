@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3" height="21" viewBox="0 0 3 21">
+    <defs>
+        <style>
+            .cls-1{fill:#dfdfdf}
+        </style>
+    </defs>
+    <g id="ic_dot_m" transform="translate(-54 -272)">
+        <circle id="타원_670" cx="1.5" cy="1.5" r="1.5" class="cls-1" transform="translate(54 272)"/>
+        <circle id="타원_671" cx="1.5" cy="1.5" r="1.5" class="cls-1" transform="translate(54 281)"/>
+        <circle id="타원_672" cx="1.5" cy="1.5" r="1.5" class="cls-1" transform="translate(54 290)"/>
+    </g>
+</svg>

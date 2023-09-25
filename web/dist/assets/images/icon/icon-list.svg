@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="btn_menu" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none}.cls-2{stroke:#0f0f0f}.cls-3{stroke:none}
+        </style>
+    </defs>
+    <path id="사각형_5898" d="M0 0H24V24H0z" class="cls-1"/>
+    <path id="사각형_5899" d="M0 0H20V20H0z" class="cls-1" transform="translate(2 2)"/>
+    <g id="사각형_5900" class="cls-2" transform="translate(2 3.75)">
+        <rect width="2" height="2" class="cls-3" rx="1"/>
+        <rect width="1" height="1" x=".5" y=".5" class="cls-1" rx=".5"/>
+    </g>
+    <g id="사각형_6711" class="cls-2" transform="translate(6 4)">
+        <rect width="16" height="1.5" class="cls-3" rx=".75"/>
+        <rect width="15" height=".5" x=".5" y=".5" class="cls-1" rx=".25"/>
+    </g>
+    <g id="사각형_5901" class="cls-2" transform="translate(2 11)">
+        <rect width="2" height="2" class="cls-3" rx="1"/>
+        <rect width="1" height="1" x=".5" y=".5" class="cls-1" rx=".5"/>
+    </g>
+    <g id="사각형_6712" class="cls-2" transform="translate(6 11.25)">
+        <rect width="16" height="1.5" class="cls-3" rx=".75"/>
+        <rect width="15" height=".5" x=".5" y=".5" class="cls-1" rx=".25"/>
+    </g>
+    <g id="사각형_5902" class="cls-2" transform="translate(2 18.25)">
+        <rect width="2" height="2" class="cls-3" rx="1"/>
+        <rect width="1" height="1" x=".5" y=".5" class="cls-1" rx=".5"/>
+    </g>
+    <g id="사각형_6713" class="cls-2" transform="translate(6 18.5)">
+        <rect width="16" height="1.5" class="cls-3" rx=".75"/>
+        <rect width="15" height=".5" x=".5" y=".5" class="cls-1" rx=".25"/>
+    </g>
+</svg>

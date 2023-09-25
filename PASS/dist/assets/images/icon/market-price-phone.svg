@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".21" x2=".899" y1="-.02" y2="1.037" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#d8d8d8"/>
+            <stop offset="1" stop-color="#afafaf"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x2=".933" y2=".959" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="1" stop-color="#dbdbdb"/>
+        </linearGradient>
+        <style>
+            .cls-6{fill:none;stroke:#fff;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="ic_phoneprice" transform="translate(-1.057 -.057)">
+        <path id="사각형_6472" fill="none" d="M0 0H76V76H0z" transform="translate(1.057 .057)"/>
+        <rect id="사각형_6170" width="34" height="60" fill="url(#linear-gradient)" rx="5" transform="translate(22.057 5.055)"/>
+        <path id="사각형_6175" fill="url(#linear-gradient-2)" d="M0 0H28V46H0z" transform="translate(25.058 13.057)"/>
+        <circle id="타원_483" cx="15" cy="15" r="15" fill="#ffcd00" transform="translate(42.057 43.057)"/>
+        <path id="패스_9416" fill="none" stroke="#fff" stroke-linejoin="bevel" stroke-width="2px" d="M-19860.088-16602.059l3.063 12 3.938-12 3.5 12 3.5-12" transform="translate(19910.145 16655.115)"/>
+        <path id="패스_9417" d="M-19861.646-16594.135h4" class="cls-6" transform="translate(19908.703 16652.191)"/>
+        <path id="패스_9418" d="M-19861.646-16594.135h4" class="cls-6" transform="translate(19924.703 16652.191)"/>
+    </g>
+</svg>

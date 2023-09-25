@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-3{fill:#0f0f0f}
+        </style>
+    </defs>
+    <g id="mypage-market-selling" transform="translate(-38 -591)">
+        <path id="사각형_5715" d="M0 0H34V34H0z" class="cls-1" transform="translate(38 591)"/>
+        <path id="사각형_5716" d="M0 0H28V28H0z" class="cls-1" transform="translate(41 594)"/>
+        <g id="사각형_7247" fill="none" stroke="#0f0f0f" stroke-width="1.5px" transform="translate(39 592)">
+            <rect width="32" height="32" stroke="none" rx="3"/>
+            <rect width="30.5" height="30.5" x=".75" y=".75" class="cls-1" rx="2.25"/>
+        </g>
+        <rect id="사각형_7658" width="2" height="2" class="cls-3" rx="1" transform="translate(45 599.75)"/>
+        <rect id="사각형_7662" width="2" height="2" class="cls-3" rx="1" transform="translate(45 606.75)"/>
+        <rect id="사각형_7664" width="2" height="2" class="cls-3" rx="1" transform="translate(45 613.75)"/>
+        <rect id="사각형_7660" width="16" height="1.5" class="cls-3" rx=".75" transform="translate(49 600)"/>
+        <rect id="사각형_7661" width="16" height="1.5" class="cls-3" rx=".75" transform="translate(49 607)"/>
+        <rect id="사각형_7663" width="10" height="1.5" class="cls-3" rx=".75" transform="translate(49 614)"/>
+    </g>
+</svg>

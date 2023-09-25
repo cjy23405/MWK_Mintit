@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#e7151b"/>
+            <stop offset=".512" stop-color="#f36a15"/>
+            <stop offset="1" stop-color="#f8a900"/>
+        </linearGradient>
+        <style>
+            .cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="ic_pin_postoffice" transform="translate(-.052 -.032)">
+        <path id="Rectangle_8539" fill="none" d="M0 0H40V40H0z" transform="translate(.052 .032)"/>
+        <path id="Path_8845" fill="url(#linear-gradient)" d="M83.067 0a12.6 12.6 0 0 0-12.494 12.669c0 8.67 11.181 21.4 11.657 21.935a1.115 1.115 0 0 0 1.674 0c.476-.538 11.657-13.265 11.657-21.935A12.6 12.6 0 0 0 83.067 0z" transform="translate(-63.077 2.499)"/>
+        <g id="Group_4593" transform="translate(11.245 11.244)">
+            <path id="Path_8878" d="M45.518 317.576a.042.042 0 0 0 0 .079l3.239 2.14.929-4.365z" class="cls-3" transform="translate(-45.488 -312.569)"/>
+            <path id="Path_8880" d="M316.061 315.376h-5.707l-.927 4.368h5.706c.042 0 .047-.018.012-.041l-3.246-2.141 4.17-2.151c.037-.019.033-.035-.009-.035" class="cls-3" transform="translate(-298.603 -312.518)"/>
+            <path id="Path_8882" d="M117.7 245.674h-13.439a1.37 1.37 0 0 0-1.4 1.056.787.787 0 0 0 .3.8l4.827 3.188 9.711-5.008c.038-.019.036-.035-.009-.035" class="cls-3" transform="translate(-100.492 -245.674)"/>
+            <path id="Path_8883" d="M75.752 373.627l-7.571-5L62 371.815a1.287 1.287 0 0 0-.641.8c-.124.582.2 1.056.95 1.056h13.43c.042 0 .048-.021.012-.043" class="cls-3" transform="translate(-60.678 -363.584)"/>
+        </g>
+    </g>
+</svg>

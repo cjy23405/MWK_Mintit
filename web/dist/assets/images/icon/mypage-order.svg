@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="mypage-order" width="34" height="34" viewBox="0 0 34 34">
+    <defs>
+        <style>
+            .cls-1,.cls-4{fill:none}.cls-4{stroke:#0f0f0f}
+        </style>
+    </defs>
+    <path id="사각형_5715" d="M0 0h34v34H0z" class="cls-1"/>
+    <path id="사각형_5716" d="M3 3h28v28H3z" class="cls-1"/>
+    <rect id="사각형_9282" width="28" height="28" class="cls-1" rx="3" transform="translate(3 3)"/>
+    <rect id="사각형_9283" width="26.5" height="26.5" fill="none" stroke="#0f0f0f" stroke-width="1.5px" rx="2.25" transform="translate(3.75 3.75)"/>
+    <path id="패스_9408" d="M17 20a7.005 7.005 0 0 1-7-7v-3h1.5v3a5.5 5.5 0 0 0 11 0v-3H24v3a7.005 7.005 0 0 1-7 7z" class="cls-1"/>
+    <path id="패스_9409" fill="#0f0f0f" d="M17 20a7.006 7.006 0 0 1-7-7v-3h1.5v3a5.5 5.5 0 0 0 11 0v-3H24v3a7.006 7.006 0 0 1-7 7z"/>
+    <path id="패스_9411" d="M10.751 9.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25.25.25 0 0 1-.25-.25v-.5a.25.25 0 0 1 .25-.25z" class="cls-4"/>
+    <path id="패스_9413" d="M23.251 9.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25.25.25 0 0 1-.25-.25v-.5a.25.25 0 0 1 .25-.25z" class="cls-4"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".14" x2=".894" y1=".083" y2=".083" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#a9a9a9"/>
+            <stop offset="1" stop-color="#7a7a7a"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x2=".94" y1=".5" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#e5e5e5"/>
+            <stop offset="1" stop-color="#cbc7c7"/>
+        </linearGradient>
+        <style>
+            .cls-4{fill:#fff}
+        </style>
+    </defs>
+    <g id="ic_error" transform="translate(-1516.905 -646.452)">
+        <path id="사각형_8158" fill="none" d="M0 0H90V90H0z" transform="translate(1516.905 646.452)"/>
+        <g id="그룹_2267" transform="translate(1515.385 651.415)">
+            <rect id="사각형_8159" width="72" height="61" fill="url(#linear-gradient)" rx="5" transform="translate(10.519 8.038)"/>
+            <path id="패스_9302" fill="url(#linear-gradient-2)" d="M0 0h72v47.093A2.882 2.882 0 0 1 69.143 50H2.857A2.882 2.882 0 0 1 0 47.093z" transform="translate(10.519 19.039)"/>
+            <path id="패스_9301" d="M1.5 0A1.5 1.5 0 1 1 0 1.5 1.5 1.5 0 0 1 1.5 0z" class="cls-4" transform="translate(75.519 12.037)"/>
+            <path id="패스_9851" d="M1.5 0A1.5 1.5 0 1 1 0 1.5 1.5 1.5 0 0 1 1.5 0z" class="cls-4" transform="translate(70.519 12.037)"/>
+            <path id="패스_9852" d="M1.5 0A1.5 1.5 0 1 1 0 1.5 1.5 1.5 0 0 1 1.5 0z" class="cls-4" transform="translate(65.519 12.037)"/>
+            <path id="패스_9853" d="M-25.192 0h7.44v-1.984h-5.072v-3.168h4.16v-1.984h-4.16v-2.736h4.9v-1.984h-7.264zm9.44 0h2.368v-4.48h1.648L-9.3 0h2.64l-2.772-4.848a3.389 3.389 0 0 0 2.256-3.408c0-2.72-1.968-3.6-4.448-3.6h-4.128zm2.368-6.352v-3.616h1.536c1.52 0 2.368.432 2.368 1.712 0 1.264-.848 1.9-2.368 1.9zM-5.24 0h2.368v-4.48h1.648L1.208 0h2.64L1.08-4.848a3.389 3.389 0 0 0 2.256-3.408c0-2.72-1.968-3.6-4.448-3.6H-5.24zm2.368-6.352v-3.616h1.536c1.52 0 2.368.432 2.368 1.712 0 1.264-.848 1.9-2.368 1.9zM9.976.224c3.136 0 5.3-2.352 5.3-6.192s-2.16-6.1-5.3-6.1-5.3 2.24-5.3 6.1C4.68-2.128 6.84.224 9.976.224zm0-2.048c-1.76 0-2.88-1.616-2.88-4.144 0-2.544 1.12-4.064 2.88-4.064s2.88 1.52 2.88 4.064c0 2.528-1.12 4.144-2.88 4.144zM17.192 0h2.368v-4.48h1.648L23.64 0h2.64l-2.768-4.848a3.389 3.389 0 0 0 2.256-3.408c0-2.72-1.968-3.6-4.448-3.6h-4.128zm2.368-6.352v-3.616h1.54c1.52 0 2.368.432 2.368 1.712 0 1.264-.848 1.9-2.368 1.9z" class="cls-4" transform="translate(46.52 50.037)"/>
+            <path id="패스_4099" fill="#ffcd00" d="M1588.739 665.35l-15.7 26a1.718 1.718 0 0 0 1.555 2.575H1606a1.717 1.717 0 0 0 1.555-2.575l-15.7-26a1.837 1.837 0 0 0-3.116 0z" transform="translate(-1518.274 -618.238)"/>
+            <rect id="사각형_12704" width="2.5" height="12" class="cls-4" rx="1.25" transform="translate(70.77 54.787)"/>
+            <rect id="사각형_12705" width="2.5" height="2.5" class="cls-4" rx="1.25" transform="translate(70.77 68.787)"/>
+        </g>
+    </g>
+</svg>

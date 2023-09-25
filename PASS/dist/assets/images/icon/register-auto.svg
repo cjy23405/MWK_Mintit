@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_register_auto" width="44" height="38" viewBox="0 0 44 38">
+    <defs>
+        <style>
+            .cls-2{fill:#222}
+        </style>
+    </defs>
+    <path id="사각형_12470" fill="none" d="M0 0H44V38H0z"/>
+    <path id="패스_9805" d="M16 5.5a2 2 0 0 0-2 2v23a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-23a2 2 0 0 0-2-2H16m0-1h12a3 3 0 0 1 3 3v23a3 3 0 0 1-3 3H16a3 3 0 0 1-3-3v-23a3 3 0 0 1 3-3z" class="cls-2"/>
+    <path id="패스_9806" d="M20.5 7.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1z" class="cls-2"/>
+    <path id="패스_9807" d="M16.5 17h-1v-2.5H18v1h-1.5z" class="cls-2"/>
+    <path id="패스_9808" d="M18 26.5h-2.5V24h1v1.5H18z" class="cls-2"/>
+    <path id="패스_9809" d="M28.5 17h-1v-1.5H26v-1h2.5z" class="cls-2"/>
+    <path id="패스_9810" d="M28.5 26.5H26v-1h1.5V24h1z" class="cls-2"/>
+    <path id="패스_9812" d="M16 20h12v1H16z" class="cls-2"/>
+</svg>

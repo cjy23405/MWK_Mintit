@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y1="1.91" y2="-.422" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+            <stop offset=".999" stop-color="#808da3"/>
+        </linearGradient>
+        <style>
+            .cls-2{fill:#afc1da}.cls-8{fill:#3a3a3a}
+        </style>
+    </defs>
+    <g id="error" transform="translate(-1522.905 -614.452)">
+        <path id="사각형_8158" fill="none" d="M0 0H80V80H0z" transform="translate(1522.905 614.452)"/>
+        <g id="그룹_2267">
+            <rect id="사각형_8159" width="74" height="53.299" class="cls-2" rx="5" transform="translate(1523.905 618.69)"/>
+            <path id="사각형_8160" fill="#edf1f7" d="M0 0H64V38.359H0z" transform="translate(1528.905 623.691)"/>
+            <path id="사각형_8161" d="M0 0H19.611V8.793H0z" class="cls-2" transform="translate(1551.221 671.989)"/>
+            <path id="사각형_8162" fill="url(#linear-gradient)" d="M0 0H19.611V8.793H0z" opacity="0.6" transform="translate(1551.221 671.989)" style="mix-blend-mode:multiply;isolation:isolate"/>
+            <path id="사각형_8163" d="M0 0H51.964V4.838H0z" class="cls-2" transform="translate(1535.045 680.782)"/>
+            <path id="사각형_8164" d="M0 0H51.964V2H0z" class="cls-2" transform="translate(1535.045 645.339)"/>
+            <path id="사각형_8165" d="M0 0H51.964V2H0z" class="cls-2" transform="translate(1535.045 650.596)"/>
+            <path id="사각형_8166" d="M0 0H51.964V2H0z" class="cls-2" transform="translate(1535.045 655.853)"/>
+            <circle id="타원_759" cx="7.045" cy="7.045" r="7.045" fill="#3e79e8" transform="translate(1535.045 627.654)"/>
+            <g id="그룹_2266">
+                <path id="패스_4098" fill="#fff" d="M1541.067 638.457a1 1 0 0 1-.707-.293l-2.444-2.444a1 1 0 0 1 1.414-1.414l1.746 1.745 4.147-4.05a1 1 0 0 1 1.4 1.432l-4.853 4.74a1 1 0 0 1-.703.284z"/>
+            </g>
+        </g>
+        <g id="그룹_2269">
+            <path id="패스_4099" fill="#ffcd00" d="M1586.116 665.242L1573 687.964a1.5 1.5 0 0 0 1.3 2.25h26.238a1.5 1.5 0 0 0 1.3-2.25l-13.119-22.722a1.5 1.5 0 0 0-2.603 0z"/>
+            <g id="그룹_2268">
+                <path id="사각형_8167" d="M0 0H3V10.854H0z" class="cls-8" transform="translate(1586.009 671.873)"/>
+                <path id="사각형_8168" d="M0 0H3V3H0z" class="cls-8" transform="translate(1586.009 684.691)"/>
+            </g>
+        </g>
+    </g>
+</svg>

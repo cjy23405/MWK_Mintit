@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <style>
+            .cls-4{fill:#a4a4a4}.cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="btn_naverpost_w" transform="translate(-63.973 -959.973)">
+        <rect id="사각형_5960" width="36" height="36" fill="#a4a4a4" opacity="0.6" rx="18" transform="translate(63.973 959.973)"/>
+        <g id="그룹_1539" transform="translate(76.59 968.094)">
+            <path id="사각형_5961" d="M0 0H10.23V12.275H0z" class="cls-2"/>
+            <path id="빼기_18" d="M7.266 3.895H1.949L0 0h9.206L7.267 3.892z" class="cls-2" transform="translate(.508 13.281)"/>
+            <path id="빼기_19" d="M2.05 4.1v-.01L0 0h4.095L2.052 4.09z" class="cls-2" transform="translate(3.069 18.204)"/>
+            <g id="그룹_1617" opacity="0.6" transform="translate(2.251 3.886)">
+                <path id="사각형_5965" d="M0 0H2.046V4.457H0z" class="cls-4" transform="translate(0 .009)"/>
+                <path id="사각형_5966" d="M0 0H2.046V4.457H0z" class="cls-4" transform="translate(3.682 .009)"/>
+                <path id="패스_2213" d="M.988 0h1.023l-.988 4.307H0z" class="cls-4" transform="rotate(-45 2.032 -.05)"/>
+            </g>
+        </g>
+    </g>
+</svg>

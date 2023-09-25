@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#e7151b"/>
+            <stop offset=".512" stop-color="#f36a15"/>
+            <stop offset="1" stop-color="#f8a900"/>
+        </linearGradient>
+        <style>
+            .cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="ic_pin_postoffice" transform="translate(-15 -312)">
+        <path id="사각형_8539" fill="none" d="M0 0H32V32H0z" transform="translate(15 312)"/>
+        <path id="패스_8845" fill="url(#linear-gradient)" d="M80.573 0a10.082 10.082 0 0 0-10 10.14c0 6.939 8.949 17.126 9.33 17.557a.892.892 0 0 0 1.34 0c.381-.43 9.33-10.617 9.33-17.557a10.082 10.082 0 0 0-10-10.14z" transform="translate(-49.573 314)"/>
+        <g id="그룹_4593" transform="translate(-21.488 75.326)">
+            <path id="패스_8878" d="M45.512 317.147a.033.033 0 0 0 0 .063l2.593 1.713.743-3.494z" class="cls-3" transform="translate(0 -67.466)"/>
+            <path id="패스_8880" d="M314.736 315.376h-4.568l-.742 3.5h4.567c.034 0 .038-.014.01-.033l-2.6-1.713 3.338-1.722c.03-.016.026-.028-.007-.028" class="cls-3" transform="translate(-255.275 -67.414)"/>
+            <path id="패스_8882" d="M114.732 245.674h-10.754a1.1 1.1 0 0 0-1.12.845.63.63 0 0 0 .241.64l3.864 2.551 7.772-4.008c.03-.015.029-.028-.007-.028" class="cls-3" transform="translate(-55.473)"/>
+            <path id="패스_8883" d="M72.872 372.629l-6.06-4-4.947 2.552a1.03 1.03 0 0 0-.513.64c-.1.466.158.845.761.845h10.75c.034 0 .039-.016.01-.034" class="cls-3" transform="translate(-15.319 -118.917)"/>
+        </g>
+    </g>
+</svg>

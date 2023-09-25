@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="365" height="580" viewBox="0 0 365 580">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_8580" d="M0 0H365V580H0z" class="cls-1" transform="translate(1295 843)"/>
+        </clipPath>
+        <filter id="사각형_8396" width="315" height="606" x="25" y="1" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="5"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <g id="atm" clip-path="url(#clip-path)" transform="translate(-1295 -843)">
+        <g filter="url(#사각형_8396)" transform="translate(1295 843)">
+            <g id="사각형_8396-2" fill="#fff" stroke="#fff">
+                <path stroke="none" d="M24 0h237a24 24 0 0 1 24 24v552H0V24A24 24 0 0 1 24 0z" transform="translate(40 13)"/>
+                <path d="M24 .5h237A23.5 23.5 0 0 1 284.5 24v551a.5.5 0 0 1-.5.5H1a.5.5 0 0 1-.5-.5V24A23.5 23.5 0 0 1 24 .5z" class="cls-1" transform="translate(40 13)"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="238" viewBox="0 0 260 238">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_8589" d="M0 0H260V238H0z" class="cls-1" transform="translate(50 757)"/>
+        </clipPath>
+        <filter id="Rectangle_8396" width="230" height="307" x="15" y="76" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="5"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-1{fill:none}.cls-6{stroke:none}
+        </style>
+    </defs>
+    <g id="miniatm" clip-path="url(#clip-path)" transform="translate(-50 -757)">
+        <g filter="url(#Rectangle_8396)" transform="translate(50 757)">
+            <g id="Rectangle_8396-2" fill="#fff" stroke="#fff">
+                <path d="M24 0h152a24 24 0 0 1 24 24v253H0V24A24 24 0 0 1 24 0z" class="cls-6" transform="translate(30 88)"/>
+                <path d="M24 .5h152A23.5 23.5 0 0 1 199.5 24v252a.5.5 0 0 1-.5.5H1a.5.5 0 0 1-.5-.5V24A23.5 23.5 0 0 1 24 .5z" class="cls-1" transform="translate(30 88)"/>
+            </g>
+        </g>
+        <g id="Rectangle_8425" fill="#0f0f0f" stroke="#fff" stroke-width="6px" transform="translate(105 787)">
+            <rect width="150" height="178" class="cls-6" rx="24"/>
+            <rect width="144" height="172" x="3" y="3" class="cls-1" rx="21"/>
+        </g>
+        <g id="Rectangle_8426" fill="none" stroke="#f4f4f4" transform="translate(105 787)">
+            <rect width="150" height="178" class="cls-6" rx="24"/>
+            <rect width="149" height="177" x=".5" y=".5" class="cls-1" rx="23.5"/>
+        </g>
+    </g>
+</svg>

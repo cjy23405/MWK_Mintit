@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>컴포넌트 가이드</title>
+
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- favicon -->
+    <link rel="icon" href="./dist/assets/images/common/favicon.ico" type="image/x-icon" />
+    <!-- //favicon -->
+
+    <!-- style -->
+    <link type="text/css" rel="stylesheet" href="./dist/assets/css/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="./dist/assets/css/common.css" />
+    <link type="text/css" rel="stylesheet" href="./dist/assets/css/ui-style.css" />
+    <style>
+      *:focus {
+        outline: 1px dotted #999;
+      }
+      b {
+        margin-left: 10px;
+      }
+      body {
+        background: #f3f3f3;
+      }
+      h1.test-title {
+        font-size: 30px;
+        margin: 50px 50px;
+      }
+      h2.test-title {
+        margin: 0 0 20px;
+        font-size: 22px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #888;
+      }
+      h3.test-title {
+        margin: 0 0 10px;
+        font-size: 18px;
+      }
+      .test-section {
+        border-top: 2px solid #ddd;
+        padding: 50px;
+      }
+      .test-section-sub + .test-section-sub {
+        margin-top: 20px;
+        border-top: 1px dashed #ddd;
+        padding-top: 20px;
+      }
+      .test-code {
+        border: 2px solid #ddd;
+        margin: 10px 0;
+        background: #fff;
+        padding: 10px;
+      }
+      .test-code:before {
+        content: 'ex.';
+        display: block;
+        font-size: 12px;
+      }
+      .test-description {
+        margin: 10px 0;
+        padding: 0 12px;
+      }
+      .test-links {
+        margin-left: -20px;
+      }
+      .test-links:after {
+        content: '';
+        display: table;
+        clear: both;
+      }
+      .test-links a {
+        display: block;
+        margin: 20px 0 0 20px;
+        float: left;
+        padding: 5px 15px;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        background: #333;
+      }
+      .test-links + h2.test-title {
+        margin-top: 20px;
+      }
+    </style>
+    <!-- //style -->
+  </head>
+  <body>
+    <div id="wrap">
+      <div style="display: table"></div>
+
+      <h1 class="test-title">Component</h1>
+
+      <div class="test-section test-section--button">
+        <style>
+          .test-section--button .ui-basic-button {
+            display: inline-block;
+            vertical-align: top;
+            margin: 10px;
+            width: auto;
+          }
+        </style>
+        <h2 class="test-title">Basic Button</h2>
+        <div class="test-section-sub">
+          <h3 class="test-title">button tag</h3>
+          <button type="button" class="ui-button ui-basic-button">button</button>
+          <button type="button" class="ui-button ui-basic-button" disabled>button</button>
+          <button type="button" class="ui-button ui-basic-button ui-basic-button--secondary">button</button>
+          <button type="button" class="ui-button ui-basic-button ui-basic-button--secondary" disabled>button</button>
+          <button type="button" class="ui-button ui-basic-button ui-basic-button--tertiary">button</button>
+          <button type="button" class="ui-button ui-basic-button ui-basic-button--tertiary" disabled>button</button>
+          <!--
+          <button type="button" class="ui-button ui-basic-button ui-basic-button--quaternary">button</button>
+          <button type="button" class="ui-button ui-basic-button ui-basic-button--quaternary" disabled>button</button>
+          <button type="button" class="ui-button ui-basic-button ui-basic-button--quinary">button</button>
+          <button type="button" class="ui-button ui-basic-button ui-basic-button--quinary" disabled>button</button>
+          -->
+        </div>
+        <div class="test-section-sub">
+          <h3 class="test-title">a tag</h3>
+          <a href="" class="ui-basic-button">button</a>
+          <a href="" class="ui-basic-button ui-basic-button--disabled">button</a>
+          <a href="" class="ui-basic-button ui-basic-button--secondary">button</a>
+          <a href="" class="ui-basic-button ui-basic-button--secondary ui-basic-button--disabled">button</a>
+          <a href="" class="ui-basic-button ui-basic-button--tertiary">button</a>
+          <a href="" class="ui-basic-button ui-basic-button--tertiary ui-basic-button--disabled">button</a>
+          <!--
+          <a href="" class="ui-basic-button ui-basic-button--quaternary">button</a>
+          <a href="" class="ui-basic-button ui-basic-button--quaternary ui-basic-button--disabled">button</a>
+          <a href="" class="ui-basic-button ui-basic-button--quinary">button</a>
+          <a href="" class="ui-basic-button ui-basic-button--quinary ui-basic-button--disabled">button</a>
+          -->
+        </div>
+      </div>
+
+      <div class="test-section test-section--button-group">
+        <style>
+          .test-section--button-group .ui-basic-button {
+            display: inline-block;
+            vertical-align: top;
+            margin: 10px;
+            width: auto;
+          }
+        </style>
+        <h2 class="test-title">Group Button</h2>
+        <div class="test-section-sub">
+          <h3 class="test-title">button tag</h3>
+          <button type="button" class="ui-button ui-basic-button ui-basic-button--group">button</button>
+          <button type="button" class="ui-button ui-basic-button ui-basic-button--group" disabled>button</button>
+          <button type="button" class="ui-button ui-basic-button ui-basic-button--group ui-basic-button--secondary">button</button>
+          <button type="button" class="ui-button ui-basic-button ui-basic-button--group ui-basic-button--secondary" disabled>button</button>
+          <button type="button" class="ui-button ui-basic-button ui-basic-button--group ui-basic-button--tertiary">button</button>
+          <button type="button" class="ui-button ui-basic-button ui-basic-button--group ui-basic-button--tertiary" disabled>button</button>
+        </div>
+        <div class="test-section-sub">
+          <h3 class="test-title">a tag</h3>
+          <a href="" class="ui-basic-button ui-basic-button--group">button</a>
+          <a href="" class="ui-basic-button ui-basic-button--group ui-basic-button--disabled">button</a>
+          <a href="" class="ui-basic-button ui-basic-button--group ui-basic-button--secondary">button</a>
+          <a href="" class="ui-basic-button ui-basic-button--group ui-basic-button--secondary ui-basic-button--disabled">button</a>
+          <a href="" class="ui-basic-button ui-basic-button--group ui-basic-button--tertiary">button</a>
+          <a href="" class="ui-basic-button ui-basic-button--group ui-basic-button--tertiary ui-basic-button--disabled">button</a>
+        </div>
+      </div>
+
+      <div class="test-section test-section--button-list">
+        <h2 class="test-title">Button List</h2>
+        <div class="test-section-sub">
+          <h3 class="test-title">Default</h3>
+          <div class="ui-buttons">
+            <ul class="ui-buttons__list">
+              <li class="ui-buttons__item">
+                <a href="" class="ui-basic-button ui-basic-button--group ui-basic-button--secondary">button</a>
+              </li>
+              <li class="ui-buttons__item">
+                <a href="" class="ui-basic-button ui-basic-button--group">button</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="test-section-sub">
+          <h3 class="test-title">Align Left</h3>
+          <div class="ui-buttons ui-buttons--left">
+            <ul class="ui-buttons__list">
+              <li class="ui-buttons__item">
+                <a href="" class="ui-basic-button ui-basic-button--group ui-basic-button--secondary">button</a>
+              </li>
+              <li class="ui-buttons__item">
+                <a href="" class="ui-basic-button ui-basic-button--group">button</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="test-section-sub">
+          <h3 class="test-title">Align Right</h3>
+          <div class="ui-buttons ui-buttons--right">
+            <ul class="ui-buttons__list">
+              <li class="ui-buttons__item">
+                <a href="" class="ui-basic-button ui-basic-button--group ui-basic-button--secondary">button</a>
+              </li>
+              <li class="ui-buttons__item">
+                <a href="" class="ui-basic-button ui-basic-button--group">button</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="test-section-sub">
+          <h3 class="test-title">Align Center</h3>
+          <div class="ui-buttons ui-buttons--center">
+            <ul class="ui-buttons__list">
+              <li class="ui-buttons__item">
+                <a href="" class="ui-basic-button ui-basic-button--group ui-basic-button--secondary">button</a>
+              </li>
+              <li class="ui-buttons__item">
+                <a href="" class="ui-basic-button ui-basic-button--group">button</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="test-section-sub">
+          <h3 class="test-title">Width Full</h3>
+          <div class="ui-buttons ui-buttons--full">
+            <ul class="ui-buttons__list">
+              <li class="ui-buttons__item">
+                <a href="" class="ui-basic-button ui-basic-button--secondary">button</a>
+              </li>
+              <li class="ui-buttons__item">
+                <a href="" class="ui-basic-button">button</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script type="text/javascript" src="./dist/assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./dist/assets/js/apexcharts.min.js"></script>
+    <script type="text/javascript" src="./dist/assets/js/swiper.minjs"></script>
+    <script type="text/javascript" src="./dist/assets/js/ui-script.js"></script>
+    <!-- //script -->
+  </body>
+</html>

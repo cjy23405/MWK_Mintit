@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="ic_caution" transform="translate(-20 -925)">
+        <circle id="타원_645" cx="8" cy="8" r="8" fill="#aeaeae" transform="translate(20 925)"/>
+        <rect id="사각형_7056" width="1.154" height="5.768" class="cls-2" rx=".577" transform="translate(27.499 929.038)"/>
+        <rect id="사각형_7057" width="1.154" height="1.154" class="cls-2" rx=".577" transform="translate(27.499 935.96)"/>
+    </g>
+</svg>

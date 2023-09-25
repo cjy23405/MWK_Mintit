@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <defs>
+        <style>
+            .cls-2,.cls-4,.cls-5{fill:none}.cls-4,.cls-5{stroke:#0ac3bc;stroke-width:1.5px}.cls-4{stroke-linecap:round;stroke-linejoin:round}.cls-6{stroke:none}
+        </style>
+    </defs>
+    <g id="ic_callcenter_hover" transform="translate(-711.047 -413.09)">
+        <path id="패스_9946" fill="none" stroke="#0ac3bc" stroke-miterlimit="10" stroke-width="1.5px" d="M178.021 148.961c0-.01.1-.326.2-.648a16.21 16.21 0 0 1 15.41-10.972 16.411 16.411 0 0 1 15.224 10.459 5.939 5.939 0 0 1 .27 1.239 80.954 80.954 0 0 1-.1 9.721 4.681 4.681 0 0 1-.208.812 16.278 16.278 0 0 1-12.356 10.128" transform="translate(547.978 288.447)"/>
+        <path id="사각형_8010" d="M0 0H60V60H0z" class="cls-2" transform="translate(711.047 413.09)"/>
+        <g id="합치기_143" fill="none">
+            <path d="M11.833 23.983a.863.863 0 0 1-.178.017h-9.09A1 1 0 0 1 2 22.172l2.01-1.362A11.755 11.755 0 0 1 0 12 12.257 12.257 0 0 1 12.5 0 12.257 12.257 0 0 1 25 12a12.257 12.257 0 0 1-12.5 12q-.335 0-.667-.017z" class="cls-6" transform="translate(729.047 430.09)"/>
+            <path fill="#0ac3bc" d="M12.5 22.5c6.065 0 11-4.71 11-10.5s-4.935-10.5-11-10.5-11 4.71-11 10.5c0 1.482.317 2.914.942 4.256.606 1.302 1.47 2.457 2.567 3.432l1.442 1.28L4.193 22.5h7.404l.118-.024.194.01c.196.01.395.014.591.014m0 1.5c-.224 0-.446-.005-.667-.016-.052.01-.11.016-.177.016H2.565c-.985 0-1.377-1.275-.562-1.827l2.01-1.363C1.546 18.617.001 15.482.001 12 0 5.374 5.597.002 12.5.002 19.402 0 24.998 5.373 24.998 12c0 6.627-5.596 12-12.499 12z" transform="translate(729.047 430.09)"/>
+        </g>
+        <path id="사각형_9630" d="M0 0h.354a5 5 0 0 1 5 5v.708a5 5 0 0 1-5 5H0V0z" class="cls-4" transform="translate(757.109 436.951)"/>
+        <path id="사각형_9631" d="M5 0h.354v10.708H5a5 5 0 0 1-5-5V5a5 5 0 0 1 5-5z" class="cls-4" transform="translate(720.631 436.951)"/>
+        <g id="타원_1277" class="cls-5" transform="translate(734.047 441.09)">
+            <circle cx="1.5" cy="1.5" r="1.5" class="cls-6"/>
+            <circle cx="1.5" cy="1.5" r=".75" class="cls-2"/>
+        </g>
+        <g id="타원_1290" class="cls-5" transform="translate(740.047 441.09)">
+            <circle cx="1.5" cy="1.5" r="1.5" class="cls-6"/>
+            <circle cx="1.5" cy="1.5" r=".75" class="cls-2"/>
+        </g>
+        <g id="타원_1276" class="cls-5" transform="translate(746.047 441.09)">
+            <circle cx="1.5" cy="1.5" r="1.5" class="cls-6"/>
+            <circle cx="1.5" cy="1.5" r=".75" class="cls-2"/>
+        </g>
+        <g id="타원_1279" class="cls-5" transform="translate(737.047 456.09)">
+            <ellipse cx="4" cy="3" class="cls-6" rx="4" ry="3"/>
+            <ellipse cx="4" cy="3" class="cls-2" rx="3.25" ry="2.25"/>
+        </g>
+    </g>
+</svg>

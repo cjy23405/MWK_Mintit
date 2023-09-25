@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_donation_step_01" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <style>
+            .cls-6{fill:#3e79e8}.cls-7{fill:#2bd3c6}
+        </style>
+    </defs>
+    <path id="사각형_6781" fill="none" d="M0 0H80V80H0z" opacity="0.2"/>
+    <path id="사각형_8126" fill="none" d="M0 0H64V64H0z" transform="translate(8 8)"/>
+    <rect id="사각형_8124" width="33.466" height="55.776" fill="#afc1da" rx="3" transform="translate(17.53 11.953)"/>
+    <path id="사각형_8125" fill="#edf1f7" d="M0 0H25.498V41.434H0z" transform="translate(21.514 19.922)"/>
+    <circle id="타원_752" cx="11.592" cy="11.592" r="11.592" fill="#fff" transform="translate(39.269 37.85)"/>
+    <path id="패스_4085" d="M-4266.615 1796.7a10.4 10.4 0 0 1 10.392 10.393 10.405 10.405 0 0 1-10.392 10.394 10.4 10.4 0 0 1-10.394-10.394 10.4 10.4 0 0 1 10.394-10.393m0-2.4a12.791 12.791 0 0 0-12.792 12.791 12.79 12.79 0 0 0 12.792 12.792 12.792 12.792 0 0 0 12.792-12.792 12.792 12.792 0 0 0-12.792-12.791z" class="cls-6" transform="translate(4317.477 -1757.648)"/>
+    <path id="패스_4086" d="M-4248.152 1830.524a1.2 1.2 0 0 1-.91-.416l-5.762-6.672a1.2 1.2 0 0 1 .123-1.691 1.2 1.2 0 0 1 1.691.124l5.763 6.672a1.2 1.2 0 0 1-.123 1.692 1.2 1.2 0 0 1-.782.291z" class="cls-6" transform="translate(4312.606 -1763.092)"/>
+    <circle id="타원_753" cx="1.599" cy="1.599" r="1.599" class="cls-7" transform="translate(49.263 47.844)"/>
+    <circle id="타원_754" cx="1.599" cy="1.599" r="1.599" class="cls-7" transform="translate(55 47.844)"/>
+    <circle id="타원_755" cx="1.599" cy="1.599" r="1.599" class="cls-7" transform="translate(43.525 47.844)"/>
+</svg>

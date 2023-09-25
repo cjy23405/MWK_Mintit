@@ -1,0 +1,150 @@
+/* input */
+.ui-input {
+  margin: 0;
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 0;
+  background: #eaeaea;
+  border: 1px solid #eaeaea;
+  width: 100%;
+  height: 26px;
+  font-size: 12px;
+  line-height: 24px;
+  color: #7b7b7b;
+  text-align: center;
+  padding: 0 10px;
+}
+textarea.ui-input {
+  height: 300px;
+  overflow: hidden;
+  overflow-y: auto;
+  resize: none;
+}
+.ui-input[type='number']::-webkit-outer-spin-button,
+.ui-input[type='number']::-webkit-inner-spin-button,
+.ui-input[type='date']::-webkit-outer-spin-button,
+.ui-input[type='date']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.ui-input[type='number'],
+.ui-input[type='date'] {
+  -moz-appearance: textfield;
+}
+.ui-input::-ms-clear,
+.ui-input::-ms-reveal {
+  display: none;
+}
+.ui-input::-webkit-search-decoration,
+.ui-input::-webkit-search-cancel-button,
+.ui-input::-webkit-search-results-button,
+.ui-input::-webkit-search-results-decoration {
+  display: none;
+}
+.ui-input::-webkit-input-placeholder {
+  opacity: 1;
+  color: #7b7b7b;
+}
+.ui-input::-moz-placeholder {
+  opacity: 1;
+  color: #7b7b7b;
+}
+.ui-input:-ms-input-placeholder {
+  opacity: 1;
+  color: #7b7b7b;
+}
+.ui-input:-moz-placeholder {
+  opacity: 1;
+  color: #7b7b7b;
+}
+.ui-input:focus {
+  border-color: #44aaa3;
+}
+.ui-input[readonly],
+.ui-input-block--disabled .ui-input,
+.ui-input[disabled] {
+  color: #7b7b7b;
+  border-color: #eaeaea;
+  background-color: #eaeaea;
+  opacity: 0.3;
+}
+
+/* contents */
+.wrap {
+  position: relative;
+}
+.contents-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.from {
+  background: url('../images/mobile-02-bg.jpg') repeat-y 0 0;
+  background-size: 100% auto;
+}
+.form-row {
+  width: 79.2%;
+  margin: 0 auto;
+}
+.form-row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.form-phone {
+  float: left;
+  width: 62.5%;
+}
+.form-submit {
+  display: block;
+  float: right;
+  width: 35.6%;
+  height: 26px;
+  background: url('../images/mobile-02-submit-text.jpg') no-repeat 50% 50% #c8f1eb;
+  background-size: auto 21px;
+}
+.link {
+  display: block;
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+}
+.atm-link {
+  top: 5.1%;
+  right: 10.3%;
+  width: 36.9%;
+  height: 6%;
+}
+.more-video {
+  top: 85.1%;
+  left: 27.9%;
+  width: 42.9%;
+  height: 9.3%;
+}
+.video-block {
+  display: block;
+  position: absolute;
+  top: 47.5%;
+  width: 44.7%;
+  height: 30.6%;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #000;
+}
+.video-block iframe {
+  display: block;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+.video-block-01 {
+  left: 4.25%;
+}
+.video-block-02 {
+  right: 4.25%;
+}

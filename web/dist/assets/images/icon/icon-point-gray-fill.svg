@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+    <g transform="translate(-328 -852)">
+        <circle cx="7" cy="7" r="7" fill="#aeaeae" transform="translate(328 852)"/>
+        <text fill="#fff" font-family="Montserrat-Medium, Montserrat" font-size="9px" font-weight="500" transform="translate(332 862)">
+            <tspan x="0" y="0">P</tspan>
+        </text>
+    </g>
+</svg>

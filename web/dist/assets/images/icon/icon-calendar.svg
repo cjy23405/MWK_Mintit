@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="btn_calendar" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-2{fill:#0f0f0f}
+        </style>
+    </defs>
+    <path id="패스_9076" fill="none" d="M0 0h20v20H0z"/>
+    <path id="패스_9077" d="M15.5 18h-11A2.5 2.5 0 0 1 2 15.5v-9A2.5 2.5 0 0 1 4.5 4h11A2.5 2.5 0 0 1 18 6.5v9a2.5 2.5 0 0 1-2.5 2.5zM4.5 5A1.5 1.5 0 0 0 3 6.5v9A1.5 1.5 0 0 0 4.5 17h11a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 15.5 5z" class="cls-2"/>
+    <path id="사각형_9078" d="M0 0H16V1H0z" class="cls-2" transform="translate(2 8)"/>
+    <path id="패스_9079" d="M6.276 2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5.5.5 0 0 1-.5-.5v-2a.5.5 0 0 1 .5-.5z" class="cls-2" transform="translate(-.276)"/>
+    <path id="패스_9080" d="M14 2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 14 2z" class="cls-2"/>
+</svg>

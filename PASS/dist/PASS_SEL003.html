@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>Mintit PASS</title>
+
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- 2021.05.20 : mod : 뷰포트 값 변경 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <!-- //2021.05.20 : mod : 뷰포트 값 변경 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- style -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/common.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/ui-style.css" />
+    <!-- //style -->
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="layout-wrap">
+        <div class="header-wrap">
+          <header class="header">
+            <h1 class="header__title">PASS 휴대폰</h1>
+            <div class="header__left">
+              <button type="button" class="ui-button header__button header__button--back">
+                <span class="for-a11y">뒤로</span>
+              </button>
+            </div>
+          </header>
+        </div>
+
+        <div class="contents-wrap contents-wrap--phone-select">
+          <section class="contents">
+            <h2 class="for-a11y">휴대폰 등록</h2>
+
+            <div class="progress">
+              <div class="progress__bar">
+                <div class="progress__bar-active" style="width: 66%"></div>
+              </div>
+              <p class="progress__text">
+                내 폰 시세조회 진행상태
+                <span class="progress__val">66%</span>
+              </p>
+            </div>
+
+            <p class="phone-select-title">
+              조회하고 싶은<br />
+              휴대폰 모델을 <span class="inline-block">선택해 주세요.</span>
+            </p>
+
+            <div class="select-phone select-phone--full">
+              <ul class="select-phone__list">
+                <li class="select-phone__item">
+                  <div class="select-phone__button">
+                    <input type="radio" class="ui-radio" name="selectModel" id="selectModel1" />
+                    <label for="selectModel1" class="select-phone__button-label">아이폰11 PRO MAX 512G</label>
+                  </div>
+                </li>
+                <li class="select-phone__item">
+                  <div class="select-phone__button">
+                    <input type="radio" class="ui-radio" name="selectModel" id="selectModel2" />
+                    <label for="selectModel2" class="select-phone__button-label">아이폰11 PRO MAX 256G</label>
+                  </div>
+                </li>
+                <li class="select-phone__item">
+                  <div class="select-phone__button">
+                    <input type="radio" class="ui-radio" name="selectModel" id="selectModel3" />
+                    <label for="selectModel3" class="select-phone__button-label">아이폰11 PRO MAX 64G</label>
+                  </div>
+                </li>
+                <li class="select-phone__item">
+                  <div class="select-phone__button">
+                    <input type="radio" class="ui-radio" name="selectModel" id="selectModel4" />
+                    <label for="selectModel4" class="select-phone__button-label">아이폰11 PRO 512G</label>
+                  </div>
+                </li>
+                <li class="select-phone__item">
+                  <div class="select-phone__button">
+                    <input type="radio" class="ui-radio" name="selectModel" id="selectModel5" />
+                    <label for="selectModel5" class="select-phone__button-label">아이폰11 PRO 256G</label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="bottom-fix">
+          <div class="ui-buttons ui-buttons--full">
+            <ul class="ui-buttons__list">
+              <li class="ui-buttons__item">
+                <button type="button" class="ui-button ui-basic-button">다음</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./assets/js/apexcharts.min.js"></script>
+    <script type="text/javascript" src="./assets/js/swiper.min.js"></script>
+    <script type="text/javascript" src="./assets/js/ui-script.js"></script>
+    <!-- //script -->
+  </body>
+</html>

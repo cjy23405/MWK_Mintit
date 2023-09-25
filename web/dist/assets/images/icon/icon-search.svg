@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="btn_search" transform="translate(-5.056 -6.72)">
+        <path id="사각형_6251" d="M0 0H30V30H0z" class="cls-1" transform="translate(5.056 6.72)"/>
+        <path id="사각형_6252" d="M0 0H24V24H0z" class="cls-1" transform="translate(8.056 9.72)"/>
+        <g id="사각형_6210" fill="none" stroke="#0f0f0f" transform="rotate(-45 44.578 -15.284)">
+            <rect width="2" height="10" class="cls-4" rx="1"/>
+            <rect width="1" height="9" x=".5" y=".5" class="cls-1" rx=".5"/>
+        </g>
+        <g id="타원_493" fill="none" stroke="#0f0f0f" stroke-width="2px" transform="translate(7.656 9.32)">
+            <circle cx="10.75" cy="10.75" r="10.75" class="cls-4"/>
+            <circle cx="10.75" cy="10.75" r="9.75" class="cls-1"/>
+        </g>
+    </g>
+</svg>
